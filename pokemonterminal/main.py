@@ -69,6 +69,10 @@ def main(argv=None):
         print("Dry run, exiting.")
         return
 
+    if options.filepath:
+        print(target.get_path())
+        return
+
     event_name = "Pokemon-Terminal_Wallpaper" if options.wallpaper else "Pokemon-Terminal_Terminal"
     event_exists = PlatformNamedEvent.exists(event_name)
 

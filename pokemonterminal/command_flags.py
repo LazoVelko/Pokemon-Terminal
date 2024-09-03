@@ -95,6 +95,12 @@ _misc_group.add_argument(
     help='Implies -v and doesn\'t actually changes either wallpaper '
     'or background after the pokemon has been chosen',
     action='store_true')
+_misc_group.add_argument(
+    '-fp',
+    '--filepath',
+    help='Identical to --dry-run, but prints only the filepath of the chosen image. Useful for scripting',
+    action='store_true'
+)
 either = parser.add_mutually_exclusive_group()
 either.add_argument(
     '-c',

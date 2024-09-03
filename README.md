@@ -149,6 +149,8 @@ Misc:
   -dr, --dry-run        Implies -v and doesn't actually changes either
                         wallpaper or background after the pokemon has been
                         chosen
+  -fp, --filepath       Identical to --dry-run, but prints only the filepath
+                        of the chosen image. Useful for scripting
 
 Not setting any filters will get a completely random pokemon
 ```
