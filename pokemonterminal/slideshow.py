@@ -16,17 +16,20 @@ def __get_listener_thread(event):
 
 def __slideshow_worker(filtered, delay, changer_func, event_name):
     with PlatformNamedEvent(event_name) as e:
-        t = __get_listener_thread(e)
-        random.shuffle(filtered)
-        queque = iter(filtered)
-        while t.is_alive():
-            next_pkmn = next(queque, None)
-            if next_pkmn is None:
-                random.shuffle(filtered)
-                queque = iter(filtered)
-                continue
-            changer_func(next_pkmn.get_path())
-            t.join(delay * 60)
+        try:
+            t = __get_listener_thread(e)
+            random.shuffle(filtered)
+            queque = iter(filtered)
+            while t.is_alive():
+                next_pkmn = next(queque, None)
+                if next_pkmn is None:
+                    random.shuffle(filtered)
+                    queque = iter(filtered)
+                    continue
+                changer_func(next_pkmn.get_path())
+                t.join(delay * 60)
+        except KeyboardInterrupt:
+            pass
 
 def start(filtered, delay, changer_func, event_name):
     p = multiprocessing.Process(target=__slideshow_worker, args=(filtered, delay, changer_func, event_name, ), daemon=True)
