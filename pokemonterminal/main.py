@@ -79,6 +79,11 @@ def main(argv=None):
             scripter.clear_terminal()
         return
 
+    if options.list:
+        for p in Filter.POKEMON_LIST:
+            print(p.get_name())
+        return
+
     if is_slideshow and options.id <= 0 and size > 1:
         if options.slideshow <= 0:
             print("Time has to be greater than 0. You can use decimal values.")

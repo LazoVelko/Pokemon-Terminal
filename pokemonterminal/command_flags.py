@@ -108,3 +108,7 @@ either.add_argument(
     ' name',
     nargs='?',
     default=0, const=0)
+either.add_argument(
+    '--list',
+    help='list all pokemons',
+    action='store_true')
