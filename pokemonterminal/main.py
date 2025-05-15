@@ -64,6 +64,7 @@ def main(argv=None):
             ]
         print("Total of %d pokemon matched the filters. Chose %s" %
               (size, target.get_name().title()))
+        print("Path: %s" % target.get_path())
 
     if options.dry_run:
         print("Dry run, exiting.")
