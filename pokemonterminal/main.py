@@ -62,7 +62,7 @@ def main(argv=None):
                 print(f"#{pkmn.get_id()} - {pkmn.get_name().title()}")
                 for pkmn in Filter.filtered_list
             ]
-        print("Total of %d pokemon matched the filters. Chose %s." %
+        print("Total of %d pokemon matched the filters. Chose %s" %
               (size, target.get_name().title()))
         print("Path: %s" % target.get_path())
 
