@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokemon-terminal"
+version = "2.0.0"
+description = "Pokemon terminal themes."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
+license = "GPL-3.0-only"
+authors = [{ name = "LazoCoder" }]
+keywords = ["pokemon", "terminal", "theme", "themes"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Environment :: Console",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "psutil>=5.9; platform_system != 'Windows'",
+]
+
+[project.urls]
+Homepage = "https://github.com/Crimson341/Pokemon-Terminal"
+Repository = "https://github.com/Crimson341/Pokemon-Terminal"
+Issues = "https://github.com/Crimson341/Pokemon-Terminal/issues"
+
+[project.scripts]
+pokemon = "pokemonterminal.main:main"
+ichooseyou = "pokemonterminal.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "build>=1.2",
+    "pytest>=9.0",
+    "ruff>=0.12",
+    "twine>=6.1",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = ["tests", "tests.*"]
+
+[tool.setuptools.package-data]
+pokemonterminal = ["Data/**", "Images/**"]
+
+[tool.ruff]
+line-length = 127
+target-version = "py310"
+src = ["pokemonterminal", "scripts", "tests"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

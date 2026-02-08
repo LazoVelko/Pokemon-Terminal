@@ -1,11 +1,8 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3
 """The main module that brings everything together."""
 
-import os
 import random
 import sys
-from multiprocessing import Process
-from pathlib import Path
 
 from . import scripter, slideshow
 from pokemonterminal.command_flags import parser, is_slideshow

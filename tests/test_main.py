@@ -48,8 +48,10 @@ def test_region_names(capsys):
     except SystemExit:
         pass  # It's supposed to crash.
     err: str = capsys.readouterr()[1].strip()
-    assert err.endswith(
-        "(choose from 'kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'kalos')")
+    assert "argument -r/--region: invalid choice: 'wrong_region'" in err
+    assert "choose from" in err
+    for region in ('kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'kalos'):
+        assert region in err
 
 
 def test_all(capsys):

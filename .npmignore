@@ -1,2 +1,4 @@
 .idea
 Samples/
+**/__pycache__/
+**/*.py[cod]

@@ -1,12 +1,26 @@
 {
   "name": "pokemon-terminal",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Pokemon terminal themes",
   "bin": {
-    "pokemon": "pokemon",
-    "ichooseyou": "pokemon"
+    "pokemon": "bin/pokemon.js",
+    "ichooseyou": "bin/pokemon.js"
   },
-  "scripts": {},
+  "files": [
+    "bin/pokemon.js",
+    "pokemonterminal/**/*",
+    "!pokemonterminal/**/__pycache__/**",
+    "!pokemonterminal/**/*.py[cod]",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "ruff check pokemonterminal tests scripts",
+    "test": "python -m pytest -q"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LazoCoder/Pokemon-Terminal.git"

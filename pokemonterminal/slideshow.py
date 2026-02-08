@@ -1,7 +1,6 @@
 import atexit
 import multiprocessing
 import random
-import sys
 
 from .platform import PlatformNamedEvent
 from threading import Thread
