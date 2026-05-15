@@ -1,0 +1,12 @@
+import os
+
+folder_path = '/home/adam/Pokemon/assets/images'
+for filename in os.listdir(folder_path):
+    if filename.endswith('.png'):
+        DexNo = filename[:4]
+        Pokemon_Name = ("Bulbasaur")
+        Variant = filename[5:-4]
+        new_filename = f"{DexNo}_{Pokemon_Name}-{Variant}.png"
+        Old_Name = os.path.join(folder_path, filename)
+        New_Name = os.path.join(folder_path, new_filename)
+        os.rename(Old_Name, New_Name)
