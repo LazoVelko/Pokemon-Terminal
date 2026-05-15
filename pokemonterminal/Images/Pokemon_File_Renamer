@@ -1,12 +1,31 @@
+# I need to be able to open my image folder and rename all of my Pokemon images using a .txt file containing all of their names and Pokedex numbers.
+# /home/mark/Documents/Adam's_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images
+# /home/mark/Documents/Adam's_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt
+# I need to open the image folder, read the first 4 digits of every name, then replace those 4 digits with [4 digits]_[name of Pokemon that appears on  the corresponding line in Pokemon.txt]
+
 import os
 
-folder_path = '/home/adam/Pokemon/assets/images'
+Names_txt = open('/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt')
+# print(content[0])
+
+def words (Names_txt):
+    content = Names_txt.readlines()
+    Pokemon_Name = content[0].split()
+    print (Pokemon_Name)
+
+for Name_Test in Names_txt.read().split()[0:1]:
+    print(Name_Test)
+
+
+# Renames the Pokemon .png files based on the given name in the function.
+
+folder_path = '/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/Test'
 for filename in os.listdir(folder_path):
     if filename.endswith('.png'):
         DexNo = filename[:4]
-        Pokemon_Name = ("Bulbasaur")
-        Variant = filename[5:-4]
-        new_filename = f"{DexNo}_{Pokemon_Name}-{Variant}.png"
+        Pokemon_Name = Name_Test
+        Variant = filename[4:-4]
+        new_filename = f"{DexNo}_{Pokemon_Name}{Variant}.png"
         Old_Name = os.path.join(folder_path, filename)
         New_Name = os.path.join(folder_path, new_filename)
         os.rename(Old_Name, New_Name)
