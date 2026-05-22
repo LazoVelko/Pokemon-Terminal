@@ -1,0 +1,45 @@
+class pkmnVariables:
+    def __init__(self, dexNo, name, darknessValue, primaryType, secondaryType):
+        self.dexNo = dexNo
+        self.name = name
+        self.darknessValue = darknessValue
+        self.primaryType = primaryType
+        self.secondaryType = secondaryType
+
+
+# def pkmnClassTest(filePath):
+#     dexNoString = filePath[:4]
+#     dexNoInt = int(dexNoString)
+#     namesTxt = open('/home/adam/pokemon.txt').readlines()
+#     chosenLine = namesTxt[dexNoInt]
+#     chosenLine.split()
+#     print(pkmnVariables)
+#     pkmnDexNo = chosenLine.split()[0]
+#     pkmnName = chosenLine.split()[1]
+#     pkmnDarknessValue = chosenLine.split()[2]
+#     pkmnPrimaryType = chosenLine.split()[3]
+#     pkmnSecondaryType = chosenLine.split()[4]
+
+pkmnDexNo = ""
+pkmnName = ""
+pkmnDarknessValue = ""
+pkmnPrimaryType = ""
+pkmnSecondaryType = ""
+
+dexNoStr = "0655"
+dexNoInt = int(dexNoStr)-1
+namesTxt = open('/home/adam/pokemon.txt').readlines()
+chosenLine = namesTxt[dexNoInt]
+print(pkmnVariables)
+pkmnDexNo = dexNoStr
+pkmnName = chosenLine.split()[0]
+pkmnDarknessValue = "placeholder"
+pkmnPrimaryType = chosenLine.split()[2]
+pkmnSecondaryType = "placeholder"
+p1 = pkmnVariables(pkmnDexNo, pkmnName, pkmnDarknessValue, pkmnPrimaryType, pkmnSecondaryType)
+
+print(p1.dexNo)
+print(p1.name)
+print(p1.darknessValue)
+print(p1.primaryType)
+print(p1.secondaryType)
