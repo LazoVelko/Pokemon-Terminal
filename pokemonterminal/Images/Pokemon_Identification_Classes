@@ -1,45 +1,30 @@
 class pkmnVariables:
-    def __init__(self, dexNo, name, darknessValue, primaryType, secondaryType):
+    def __init__(self, dexNo, name, darknessValue, types):
         self.dexNo = dexNo
         self.name = name
         self.darknessValue = darknessValue
-        self.primaryType = primaryType
-        self.secondaryType = secondaryType
+        self.types = types
 
-
-# def pkmnClassTest(filePath):
-#     dexNoString = filePath[:4]
-#     dexNoInt = int(dexNoString)
-#     namesTxt = open('/home/adam/pokemon.txt').readlines()
-#     chosenLine = namesTxt[dexNoInt]
-#     chosenLine.split()
-#     print(pkmnVariables)
-#     pkmnDexNo = chosenLine.split()[0]
-#     pkmnName = chosenLine.split()[1]
-#     pkmnDarknessValue = chosenLine.split()[2]
-#     pkmnPrimaryType = chosenLine.split()[3]
-#     pkmnSecondaryType = chosenLine.split()[4]
-
-pkmnDexNo = ""
-pkmnName = ""
-pkmnDarknessValue = ""
-pkmnPrimaryType = ""
-pkmnSecondaryType = ""
-
-dexNoStr = "0655"
+dexNoStr = "655"
 dexNoInt = int(dexNoStr)-1
-namesTxt = open('/home/adam/pokemon.txt').readlines()
+namesTxt = open('/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt').readlines()
+# namesTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
 chosenLine = namesTxt[dexNoInt]
 print(pkmnVariables)
 pkmnDexNo = dexNoStr
 pkmnName = chosenLine.split()[0]
 pkmnDarknessValue = "placeholder"
-pkmnPrimaryType = chosenLine.split()[2]
-pkmnSecondaryType = "placeholder"
-p1 = pkmnVariables(pkmnDexNo, pkmnName, pkmnDarknessValue, pkmnPrimaryType, pkmnSecondaryType)
+pkmnTypes = chosenLine.split()[2:]
+p1 = pkmnVariables(pkmnDexNo, pkmnName, pkmnDarknessValue, pkmnTypes)
 
 print(p1.dexNo)
 print(p1.name)
 print(p1.darknessValue)
-print(p1.primaryType)
-print(p1.secondaryType)
+for multipleTypes in p1.types:
+    print(multipleTypes)
+
+
+
+
+# class pkmnTypes:
+#     pkmnTypes = ("Normal", "Grass", "Fire", "Water", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy")
