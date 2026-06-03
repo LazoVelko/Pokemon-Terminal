@@ -1,15 +1,21 @@
 import cv2
+import os
 
-# Load an image (change the path to your image)
-image = cv2.imread('/home/adam/Pokemon_Images/Generation VI - Kalos/0655Delphox.png')
+def pokemonImageBrightnessFinder(image)
+    # Load an image (change the path to your image)
+    image = cv2.imread('/home/adam/Pokemon_Images/Generation VI - Kalos/0655Delphox.png')
 
-# Convert to grayscale
-grayscaleImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    # Convert to grayscale
+    grayscaleImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# Calculate the mean pixel value
-meanBrightness = grayscaleImage.mean()
+    # Calculate the mean pixel value
+    meanBrightness = grayscaleImage.mean()
 
-meanBrightness = meanBrightness / 255
+    meanBrightness = meanBrightness / 255
 
-meanBrightness = round(meanBrightness, 3) 
-print(meanBrightness)
+    meanBrightness = round(meanBrightness, 3) 
+    print(meanBrightness)
+
+for fileName in os.listdir('/home/adam/Pokemon_Images/Generation VI - Kalos'):
+    if fileName.endswith('.jpg'):
+        pokemonImageBrightnessFinder(fileName)
