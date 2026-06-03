@@ -1,21 +1,24 @@
-import cv2
 import os
 
-def pokemonImageBrightnessFinder(image)
-    # Load an image (change the path to your image)
-    image = cv2.imread('/home/adam/Pokemon_Images/Generation VI - Kalos/0655Delphox.png')
+folderPath = '/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images'
+# folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images'
 
-    # Convert to grayscale
-    grayscaleImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    # Calculate the mean pixel value
-    meanBrightness = grayscaleImage.mean()
+def pokemonImageRenamer(filePath):
+    dexNoStr = filePath[:4]
+    dexNoInt = int(dexNoStr)-1
+    namesTxt = open('/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt').readlines()
+    # namesTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
+    chosenLine = namesTxt[dexNoInt]
+    pokemonName = chosenLine.split()[0]
+    print(pokemonName)
+    variant = filePath[4:]
+    newFileName = f"{dexNoStr}_{pokemonName.capitalize()}{variant}"
+    print(newFileName)
+    oldName = os.path.join(folderPath, filePath)
+    newName = os.path.join(folderPath, newFileName)
+    os.rename(oldName, newName)
 
-    meanBrightness = meanBrightness / 255
-
-    meanBrightness = round(meanBrightness, 3) 
-    print(meanBrightness)
-
-for fileName in os.listdir('/home/adam/Pokemon_Images/Generation VI - Kalos'):
-    if fileName.endswith('.jpg'):
-        pokemonImageBrightnessFinder(fileName)
+for fileName in os.listdir(folderPath):
+    if fileName.endswith('.png'):
+        pokemonImageRenamer(fileName)
