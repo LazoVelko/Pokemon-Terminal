@@ -5,7 +5,7 @@ class pkmnVariables:
         self.brightnessValue = brightnessValue
         self.types = types
 
-dexNoStr = "655"
+dexNoStr = "0655"
 dexNoInt = int(dexNoStr)-1
 namesTxt = open('/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt').readlines()
 # namesTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
