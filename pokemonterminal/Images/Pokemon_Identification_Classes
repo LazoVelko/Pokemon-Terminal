@@ -7,7 +7,7 @@ class pkmnVariables:
 
 dexNoStr = "655"
 dexNoInt = int(dexNoStr)-1
-namesTxt = open('/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt').readlines()
+namesTxt = open('/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt').readlines()
 # namesTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
 chosenLine = namesTxt[dexNoInt]
 print(pkmnVariables)
