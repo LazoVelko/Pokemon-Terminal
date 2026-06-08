@@ -1,34 +1,33 @@
+import os
+import Pokemon_Image_Brightness_Finder as imageBrightness
+
 # def pokemonInfoCompiler(filePath):
 
-# dexNoStr = filePath[:4]
-# dexNoInt = int(dexNoStr)-1
-dexNoStr = ('0655')
-dexNoInt = int(dexNoStr)-1
-referenceTxt = open('/home/mark/Adams_Dev_Test/Pokemon_Reference_Copy.txt').readlines()
 
-open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'w').close()
+# open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'w').close()
+open('/home/adam/Pokemon_Images/Pokemon_Compilation_Test.csv', 'w').close()
 
-# referenceTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
-chosenLineInput = referenceTxt[dexNoInt]
+folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/imagesHQ/'
 
+list = os.listdir(folderPath)
 
-pokemonDexNo = int(dexNoStr)
-pokemonDexNoFixed = ("{:04d}".format(pokemonDexNo))
-pokemonName = chosenLineInput.split()[0]
-pokemonBrightness = chosenLineInput.split()[1]
-pokemonTypes = chosenLineInput.split()[2:]
+list.sort()
 
-multipleTypes = ''
-for type in pokemonTypes:
-    print(type)
-    multipleTypes = multipleTypes + type + '\t'
+for fileName in list:
+
+    pokemonDexNo = fileName[:4]
+    pokemonName = fileName[5:-4]
 
 
-with open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'a') as compiledTxt:
-    compiledTxt.write(pokemonDexNoFixed + '\t' + pokemonName + '\t' + pokemonBrightness + '\t' + multipleTypes + '\n')
+    multipleTypes = 'placeholder'
 
-print(pokemonDexNoFixed)
-print(pokemonName)
-print(pokemonBrightness)
-for multipleTypes in pokemonTypes:
-    print(multipleTypes)
+
+    # multipleTypes = ''
+    # for type in pokemonTypes:
+    #     multipleTypes = multipleTypes + type + '\t'
+
+
+    # with open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'a') as compiledTxt:
+    with open('/home/adam/Pokemon_Images/Pokemon_Compilation_Test.csv', 'a') as compiledTxt:
+        compiledTxt.write(pokemonDexNo + ',' + pokemonName.capitalize() + ',' + str(imageBrightness.pokemonImageBrightnessFinder(fileName)) + ',' + multipleTypes.capitalize() + '\n')
+
