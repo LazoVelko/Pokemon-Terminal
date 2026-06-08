@@ -1,21 +1,4 @@
 # def pokemonInfoCompiler(filePath):
-#     dexNoStr = filePath[:4]
-#     dexNoInt = int(dexNoStr)-1
-#     referenceTxt = open('/home/mark/Adams_Dev_Test/Pokemon_Reference_Copy.txt').readlines()
-#     compiledTxt = open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test').writelines()
-#     # referenceTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
-#     # compiledTxt = open('/home/adam/Pokemon_Images/pokemon.txt').writelines()
-#     chosenLineInput = referenceTxt[dexNoInt]
-#     chosenLineOutput = compiledTxt[dexNoInt]
-#     pokemonName = referenceTxt.split()[0]
-#     pokemonBrightness = referenceTxt.split()[1]
-#     pokemonTypes = referenceTxt.split()[2:]
-#     print(pokemonName)
-#     print(pokemonBrightness)
-#     print(pokemonTypes)
-
-
-# pokemonInfoCompiler(filePath)
 
 # dexNoStr = filePath[:4]
 # dexNoInt = int(dexNoStr)-1
@@ -23,11 +6,11 @@ dexNoStr = ('0655')
 dexNoInt = int(dexNoStr)-1
 referenceTxt = open('/home/mark/Adams_Dev_Test/Pokemon_Reference_Copy.txt').readlines()
 
+open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'w').close()
 
 # referenceTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
-# compiledTxt = open('/home/adam/Pokemon_Images/pokemon.txt').writelines()
 chosenLineInput = referenceTxt[dexNoInt]
-# chosenLineOutput = compiledTxt[dexNoInt]
+
 
 pokemonDexNo = int(dexNoStr)
 pokemonDexNoFixed = ("{:04d}".format(pokemonDexNo))
@@ -35,15 +18,14 @@ pokemonName = chosenLineInput.split()[0]
 pokemonBrightness = chosenLineInput.split()[1]
 pokemonTypes = chosenLineInput.split()[2:]
 
-multipleTypes = ""
-
+multipleTypes = ''
 for type in pokemonTypes:
     print(type)
     multipleTypes = multipleTypes + type + '\t'
 
+
 with open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'a') as compiledTxt:
     compiledTxt.write(pokemonDexNoFixed + '\t' + pokemonName + '\t' + pokemonBrightness + '\t' + multipleTypes + '\n')
-
 
 print(pokemonDexNoFixed)
 print(pokemonName)
