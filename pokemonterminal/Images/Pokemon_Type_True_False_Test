@@ -1,0 +1,24 @@
+pkmnTypes = ['normal', 'grass', 'fire', 'water', 'electric', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy']
+
+
+venusaur = ['grass', 'poison']
+charmelion = ['fire']
+charizard = ['fire', 'flying']
+blastoise = ['water']
+pkmn = [venusaur, charmelion, charizard, blastoise]
+
+
+def pokemonTypeTest(type):
+    type = type.lower()
+
+    for p in pkmn:
+        if type in p:
+            print("test")
+
+
+print("Enter a type:")
+typeInput = input()
+if typeInput in pkmnTypes:
+    pokemonTypeTest(typeInput)
+else:
+     print ('Nuh uh')
