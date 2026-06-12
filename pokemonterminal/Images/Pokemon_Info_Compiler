@@ -1,33 +1,21 @@
 import os
 import Pokemon_Image_Brightness_Finder as imageBrightness
-
-# def pokemonInfoCompiler(filePath):
-
+import pypokedex
 
 # open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'w').close()
-open('/home/adam/Pokemon_Images/Pokemon_Compilation_Test.csv', 'w').close()
-
+open('/home/adam/Pokemon_Images/Pokemon_Compilation_Test.txt', 'w').close()
 folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/imagesHQ/'
 
 list = os.listdir(folderPath)
-
 list.sort()
 
 for fileName in list:
-
     pokemonDexNo = fileName[:4]
     pokemonName = fileName[5:-4]
-
-
-    multipleTypes = 'placeholder'
-
-
-    # multipleTypes = ''
-    # for type in pokemonTypes:
-    #     multipleTypes = multipleTypes + type + '\t'
-
-
+    pokemonTypes = pypokedex.get(dex=int(pokemonDexNo), timeout=20)
+    multipleTypes = ''
+    for type in pokemonTypes.types:
+        multipleTypes = multipleTypes + type + '\t'
     # with open('/home/mark/Adams_Dev_Test/Pokemon_Compilation_Test', 'a') as compiledTxt:
-    with open('/home/adam/Pokemon_Images/Pokemon_Compilation_Test.csv', 'a') as compiledTxt:
-        compiledTxt.write(pokemonDexNo + ',' + pokemonName.capitalize() + ',' + str(imageBrightness.pokemonImageBrightnessFinder(fileName)) + ',' + multipleTypes.capitalize() + '\n')
-
+    with open('/home/adam/Pokemon_Images/Pokemon_Compilation_Test.txt', 'a') as compiledTxt:
+        compiledTxt.write(pokemonDexNo + '\t' + pokemonName.title() + '\t' + str(imageBrightness.pokemonImageBrightnessFinder(fileName)) + '\t' + multipleTypes.title() + '\n')
