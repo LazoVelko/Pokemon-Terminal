@@ -1,0 +1,20 @@
+import gi
+gi.require_version('Gimp', '3.0')
+from gi.repository import Gimp, GimpUi, GLib
+
+def do_create_procedure(self, name):
+    procedure = Gimp.ImageProcedure.new(self, name, Gimp.PDBProcType.PLUGIN, self.run, None)
+    procedure.set_image_types("*")
+    procedure.set_menu_label("My Plugin")
+    procedure.add_menu_path('<Image>/Filters/My Plugin/')
+    procedure.set_documentation("My plugin", "My plugin for GIMP 3.0", name)
+    procedure.set_attribution("Your Name", "Your Name", "...")
+
+    # Adding parameters
+    params = [
+        (Gimp.PDBInt32, "width", "Width", 100),
+        (Gimp.PDBInt32, "height", "Height", 100),
+        (Gimp.PDBFloat, "opacity", "Opacity", 1.0),
+    ]
+    procedure.set_params(params)
+
