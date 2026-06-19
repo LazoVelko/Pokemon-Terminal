@@ -1,10 +1,10 @@
 import Pokemon_Image_Brightness_Finder as imageBrightness
 
 class pkmnVariables:
-    def __init__(self, dexNo, name, darknessValue, types):
+    def __init__(self, dexNo, name, brightnessValue, types):
         self.dexNo = dexNo
         self.name = name
-        self.darknessValue = darknessValue
+        self.brightnessValue = brightnessValue
         self.types = types
 
 dexNoStr = "655"
@@ -15,13 +15,13 @@ chosenLine = namesTxt[dexNoInt]
 print(pkmnVariables)
 pkmnDexNo = dexNoStr
 pkmnName = chosenLine.split()[0]
-pkmnDarknessValue = 'imageBrightness.pokemonImageBrightnessFinder(fileName)'
+pkmnBrightnessValue = 'imageBrightness.pokemonImageBrightnessFinder(fileName)'
 pkmnTypes = chosenLine.split()[2:]
-p1 = pkmnVariables(pkmnDexNo, pkmnName, pkmnDarknessValue, pkmnTypes)
+p1 = pkmnVariables(pkmnDexNo, pkmnName, pkmnBrightnessValue, pkmnTypes)
 
 print(p1.dexNo)
 print(p1.name)
-print(p1.darknessValue)
+print(p1.brightnessValue)
 for multipleTypes in p1.types:
     print(multipleTypes)
 
