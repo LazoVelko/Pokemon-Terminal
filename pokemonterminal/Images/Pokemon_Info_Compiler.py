@@ -2,10 +2,7 @@ import os
 import Pokemon_Image_Brightness_Finder as imageBrightness
 import pypokedex
 
-# open('/home/mark/Adams_Dev_Test/Pokemon_Compiled_Info.txt', 'w').close()
 # folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
-# open('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Temp.txt', 'w').close()
-# open('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Log.txt', 'w').close()
 folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
 
 list = os.listdir(folderPath)
