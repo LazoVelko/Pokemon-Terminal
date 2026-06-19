@@ -1,0 +1,17 @@
+# pip install --upgrade pillow
+
+import cv2
+import Pokemon_Image_Mean_Colour_Finder as pkmnRGB
+
+from PIL import Image
+
+width = 1366
+height = 768
+
+pokemonImageMeanColourFinder('1032_Gecqua.png')
+
+# pkmnRGB.pokemonImageMeanColourFinder(fileName)
+# print(pkmnRGB.pokemonImageMeanColourFinder(fileName))
+
+img = Image.new(mode = "RGB", size = (width, height), color = ((averageRedColourValue), (averageGreenColourValue), (averageBlueColourValue)))
+img.show()
