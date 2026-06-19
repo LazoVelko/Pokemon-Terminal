@@ -17,14 +17,21 @@ def pokemonImageMeanColourFinder(fileName):
     averageGreenColourValue = int(averageColour[1])
     averageBlueColourValue = int(averageColour[2])
     
-    print(pokemonDexNo)
-    print(averageRedColourValue)
-    print(averageGreenColourValue)
-    print(averageBlueColourValue)
+    # print(pokemonDexNo)
+    # print(averageRedColourValue)
+    # print(averageGreenColourValue)
+    # print(averageBlueColourValue)
+    
+    print(averageColour)
+
+    print (averageRedColourValue, averageGreenColourValue, averageBlueColourValue)
+    
     
 
-pokemonImageMeanColourFinder('1032_Gecqua.png')
+pokemonImageMeanColourFinder('0014_Kakuna.png')
 
 # for pkmnID in list:
 #     if pkmnID.endswith('.png'):
 #         pokemonImageBrightnessFinder(pkmnID)
+
+# https://stackoverflow.com/questions/55292321/read-png-image-with-cv2-imread-form-opencv3-in-python3-7-1-and-no-pixel-at-all-w
