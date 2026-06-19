@@ -8,7 +8,7 @@ folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/
 list = os.listdir(folderPath)
 list.sort()
 
-def pokemonImageBrightnessFinder(fileName):
+def pokemonImageMeanColourFinder(fileName):
     pokemonDexNo = fileName[:4]
     pkmnImage = cv2.imread(folderPath + fileName)   
     averageColourRow = np.average(pkmnImage, axis=0)
@@ -23,7 +23,7 @@ def pokemonImageBrightnessFinder(fileName):
     print(averageBlueColourValue)
     
 
-pokemonImageBrightnessFinder('1032_Gecqua.png')
+pokemonImageMeanColourFinder('1032_Gecqua.png')
 
 # for pkmnID in list:
 #     if pkmnID.endswith('.png'):
