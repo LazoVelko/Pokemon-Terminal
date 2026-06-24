@@ -8,7 +8,10 @@ from PIL import Image
 width = 1366
 height = 768
 
-red, green, blue = pkmnRGB.pokemonImageMeanColourFinder('0014_Kakuna.png')
+# red, green, blue = [173, 106, 75]
+# red, green, blue = [129, 76, 67]
+red, green, blue = [189, 168, 86]
+
 # redValue = pkmnRGB.averageRedColourValue
 # greenValue = pkmnRGB.averageGreenColourValue
 # blueValue = pkmnRGB.averageBlueColourValue
