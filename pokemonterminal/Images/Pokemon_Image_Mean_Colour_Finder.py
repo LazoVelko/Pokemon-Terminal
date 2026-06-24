@@ -25,30 +25,18 @@ def pokemonImageBackgroundRemover(imgID):
             blueValueList.append(pixelValue[2])
             alphaValueList.append(pixelValue[3])
 
-    redValueListSum = sum(redValueList)
-    redValueListLength = len(redValueList)
-    redValueListMean = int(redValueListSum) / int(redValueListLength)
-    redValueListMean = int(redValueListMean)
+    redValueListMean = int(sum(redValueList)) / int(len(redValueList))
 
-    greenValueListSum = sum(greenValueList)
-    greenValueListLength = len(greenValueList)
-    greenValueListMean = int(greenValueListSum) / int(greenValueListLength)
-    greenValueListMean = int(greenValueListMean)
+    greenValueListMean = int(sum(greenValueList)) / int(len(greenValueList))
 
-    blueValueListSum = sum(blueValueList)
-    blueValueListLength = len(blueValueList)
-    blueValueListMean = int(blueValueListSum) / int(blueValueListLength)
-    blueValueListMean = int(blueValueListMean)
+    blueValueListMean = int(sum(blueValueList)) / int(len(blueValueList))
 
-    alphaValueListSum = sum(alphaValueList)
-    alphaValueListLength = len(alphaValueList)
-    alphaValueListMean = int(alphaValueListSum) / int(alphaValueListLength)
-    alphaValueListMean = int(alphaValueListMean)
+    alphaValueListMean = int(sum(alphaValueList)) / int(len(alphaValueList))
 
-    print(redValueListMean)
-    print(greenValueListMean)
-    print(blueValueListMean)
-    print(alphaValueListMean)
+    print(int(redValueListMean))
+    print(int(greenValueListMean))
+    print(int(blueValueListMean))
+    print(int(alphaValueListMean))
 
 pokemonImageBackgroundRemover('/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/0014_Kakuna.png')
 
