@@ -3,52 +3,52 @@ import cv2
 import numpy as np
 from PIL import Image
 
-# folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
-folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
-fileID = '0655_Delphox-Mega.png'
+folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
+# folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
 
+def pokemonImageBackgroundRemover(imgID):
+    pkmnImg = Image.open(imgID)
+    pkmnImgRGBA = pkmnImg.convert('RGBA')
+    pkmnImgData = pkmnImgRGBA.getdata()
 
-# list = os.listdir(folderPath)
-# list.sort()
+    redValueList = []
+    greenValueList = []
+    blueValueList = []
+    alphaValueList = []
 
-# def pokemonImageMeanColourFinder(fileID):
-#     pokemonDexNo = fileID[:4]
-#     pkmnImage = cv2.imread(f'imgs/{folderPath + fileID}')
-    
+    for pixelValue in pkmnImgData:
+        if pixelValue[3] == 0:
+            continue
+        else:
+            redValueList.append(pixelValue[0])
+            greenValueList.append(pixelValue[1])
+            blueValueList.append(pixelValue[2])
+            alphaValueList.append(pixelValue[3])
 
+    redValueListSum = sum(redValueList)
+    redValueListLength = len(redValueList)
+    redValueListMean = int(redValueListSum) / int(redValueListLength)
+    redValueListMean = int(redValueListMean)
 
-#     averageColourRow = np.average(pkmnImage, axis=0)
-#     averageColour= np.average(averageColourRow, axis=0)
+    greenValueListSum = sum(greenValueList)
+    greenValueListLength = len(greenValueList)
+    greenValueListMean = int(greenValueListSum) / int(greenValueListLength)
+    greenValueListMean = int(greenValueListMean)
 
+    blueValueListSum = sum(blueValueList)
+    blueValueListLength = len(blueValueList)
+    blueValueListMean = int(blueValueListSum) / int(blueValueListLength)
+    blueValueListMean = int(blueValueListMean)
 
-#     averageRedColourValue = int(averageColour[0])
-#     averageGreenColourValue = int(averageColour[1])
-#     averageBlueColourValue = int(averageColour[2])
+    alphaValueListSum = sum(alphaValueList)
+    alphaValueListLength = len(alphaValueList)
+    alphaValueListMean = int(alphaValueListSum) / int(alphaValueListLength)
+    alphaValueListMean = int(alphaValueListMean)
 
+    print(redValueListMean)
+    print(greenValueListMean)
+    print(blueValueListMean)
+    print(alphaValueListMean)
 
-#     print(pokemonDexNo)
-#     print(averageRedColourValue)
-#     print(averageGreenColourValue)
-#     print(averageBlueColourValue)
-    
+pokemonImageBackgroundRemover('/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/0014_Kakuna.png')
 
-# for fileName in os.listdir(folderPath):
-#     if fileName.endswith('.png'):
-#         pokemonImageMeanColourFinder(fileName)
-
-
-pkmnImage = Image.open('/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/0655_Delphox-Mega.png')
-
-pixels = pkmnImage.load()
-width, height = pkmnImage.size
-
-for x in range(width):
-    for y in range(height):
-            r, g, b, a = pixels[x, y]
-
-print(r)
-
-
-# print(pkmnImage.shape)
-
-# https://pytutorial.com/python-get-image-pixels-guide/
