@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 from PIL import Image
 
-folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
-# folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
+# folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
+folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
 
 def pokemonImageBackgroundRemover(imgID):
     pkmnImg = Image.open(imgID)
@@ -38,5 +38,8 @@ def pokemonImageBackgroundRemover(imgID):
     print(int(blueValueListMean))
     print(int(alphaValueListMean))
 
-pokemonImageBackgroundRemover('/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/0014_Kakuna.png')
+# pokemonImageBackgroundRemover(folderPath + '0655_Delphox.png')
 
+for pkmnID in os.listdir(folderPath):
+    if pkmnID.endswith('.png'):
+        pokemonImageBackgroundRemover(pkmnID)
