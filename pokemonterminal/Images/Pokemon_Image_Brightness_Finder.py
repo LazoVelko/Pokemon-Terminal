@@ -1,21 +1,32 @@
-import cv2
 import os
+import cv2
+import numpy as np
+from PIL import Image
+from PIL import ImageFilter
 
 # folderPath = '/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/Test'
-folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
+folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/'
 
 def pokemonImageBrightnessFinder(fileName):
-    # image = cv2.imread('/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/' + fileName)
-    image = cv2.imread(folderPath + fileName)   
-    grayscaleImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    meanBrightness = grayscaleImage.mean()
-    meanBrightness = meanBrightness / 255
-    meanBrightness = round(meanBrightness, 3)
-    return meanBrightness
-    # print(meanBrightness)
+    pkmnImg = Image.open(fileName)
+    pkmnImgGray = pkmnImg.convert('L')
+    pkmnImgData = pkmnImgGray.getdata()
 
-# pokemonImageBrightnessFinder('1032_Gecqua.png')
+    meanBrightness = []
+    
+    for pixelValue in pkmnImgData:
+        if pixelValue[3] == 0:
+            continue
+        else:
+            meanBrightness = int(sum(pixelValue)) / int(len(pixelValue))
+            print(meanBrightness)
+
+
+testVal = (folderPath + 'Test.png')
+pokemonImageBrightnessFinder(testVal)
 
 # for pkmnID in os.listdir(folderPath):
 #     if pkmnID.endswith('.png'):
 #         pokemonImageBrightnessFinder(pkmnID)
+
+# https://pythonexamples.org/pillow-convert-image-to-grayscale/
