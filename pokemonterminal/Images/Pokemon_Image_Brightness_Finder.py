@@ -1,16 +1,30 @@
 import os
-import cv2
+
 import numpy as np
 from PIL import Image
-from PIL import ImageFilter
 
-# folderPath = '/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/Test'
-folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/'
 
-def pokemonImageBrightnessFinder(fileName):
-    pkmnImg = Image.open(fileName)
+# folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images'
+folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
+grayFolderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images_Gray/'
+# folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
+# grayFolderPath = '/home/adam/Pokemon_Images/Pokemon/assets/Gray_HQ_Images/'
+
+def pokemonImageBrightnessFinder(imageInput, imageOutput, fileName):
+    fileInput = (imageInput + fileName)
+    fileOutput = (imageOutput + fileName)
+
+    # pkmnImg = Image.open(fileInput)
+    # pkmnImgRGBA = pkmnImg.convert('RGBA')
+    # pkmnImgData = pkmnImgRGBA.getdata()
+
+    pkmnImg = Image.open(fileInput)
     pkmnImgGray = pkmnImg.convert('L')
-    pkmnImgData = pkmnImgGray.getdata()
+    pkmnImgGray.save(fileOutput)
+
+    pkmnImgGrayNew = Image.open(fileOutput)
+    pkmnImgRGBA = pkmnImgGrayNew.convert('RGBA')
+    pkmnImgData = pkmnImgRGBA.getdata()
 
     meanBrightness = []
     
@@ -22,11 +36,9 @@ def pokemonImageBrightnessFinder(fileName):
             print(meanBrightness)
 
 
-testVal = (folderPath + 'Test.png')
-pokemonImageBrightnessFinder(testVal)
 
-# for pkmnID in os.listdir(folderPath):
-#     if pkmnID.endswith('.png'):
-#         pokemonImageBrightnessFinder(pkmnID)
+for pkmnID in os.listdir(folderPath):
+    if pkmnID.endswith('.png'):
+        pokemonImageBrightnessFinder(folderPath, grayFolderPath, '0014_Kakuna.png')
 
 # https://pythonexamples.org/pillow-convert-image-to-grayscale/
