@@ -9,6 +9,9 @@ list = os.listdir(folderPath)
 list.sort()
 testCount = 0
 
+open ('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Temp.txt', 'w').close()
+open ('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Log.txt', 'w').close()
+
 for fileName in list:
     if fileName in open('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Log.txt').readlines():
         continue
@@ -23,9 +26,9 @@ for fileName in list:
     multipleTypes = ''
 
     for pokeType in pokemonVariable.types:
-        multipleTypes = multipleTypes + pokeType + '\t'
+        multipleTypes = multipleTypes + '\t' + pokeType
     # with open('/home/mark/Adams_Dev_Test/Pokemon_Compiled_Info.txt', 'a') as compiledTxt:
-    with open('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Temp.txt', 'a') as compiledCsv:
-        compiledCsv.write(str(pokemonDexNoFixed) + '\t' + pokemonName.title() + '\t' + str(imageBrightness.pokemonImageBrightnessFinder(fileName)) + '\t' + multipleTypes.title() + '\n')
+    with open('/home/adam/Pokemon_Images/Pokemon_Compiled_Info.txt', 'a') as compiledCsv:
+        compiledCsv.write(str(pokemonDexNoFixed) + '\t' + pokemonName.title() + '\t' + str(imageBrightness.pokemonImageBrightnessFinder(folderPath, fileName)) + multipleTypes.title() + '\n')
     with open('/home/adam/Pokemon_Images/Pokemon_Compiled_Info_Log.txt', 'a') as infoLog:
         infoLog.write(fileName + '\n')
