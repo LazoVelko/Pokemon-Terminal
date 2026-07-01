@@ -1,0 +1,24 @@
+import os
+
+# folderPath = '/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/Test'
+folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/imagesHQ'
+
+
+def pokemonImageRenamer(filePath):
+    dexNoStr = filePath[:4]
+    dexNoInt = int(dexNoStr)-1
+    # namesTxt = open('/home/mark/Documents/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Data/pokemon.txt').readlines()
+    namesTxt = open('/home/adam/Pokemon_Images/pokemon.txt').readlines()
+    chosenLine = namesTxt[dexNoInt]
+    pokemonName = chosenLine.split()[0]
+    print(pokemonName)
+    variant = filePath[4:]
+    newFileName = f"{dexNoStr}_{pokemonName.capitalize()}{variant}"
+    print(newFileName)
+    oldName = os.path.join(folderPath, filePath)
+    newName = os.path.join(folderPath, newFileName)
+    os.rename(oldName, newName)
+
+for fileName in os.listdir(folderPath):
+    if fileName.endswith('.png'):
+        pokemonImageRenamer(fileName)

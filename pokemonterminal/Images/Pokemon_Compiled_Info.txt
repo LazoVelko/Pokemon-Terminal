@@ -1,0 +1,1310 @@
+0001	Bulbasaur	0.562	Grass	Poison
+0002	Ivysaur	0.534	Grass	Poison
+0003	Venusaur-Gmax	0.416	Grass	Poison
+0003	Venusaur-Mega	0.522	Grass	Poison
+0003	Venusaur	0.477	Grass	Poison
+0004	Charmander	0.643	Fire
+0005	Charmeleon	0.59	Fire
+0006	Charizard-Gmax	0.605	Fire	Flying
+0006	Charizard-Mega-X	0.404	Fire	Flying
+0006	Charizard-Mega-Y	0.585	Fire	Flying
+0006	Charizard	0.577	Fire	Flying
+0007	Squirtle	0.604	Water
+0008	Wartortle	0.72	Water
+0009	Blastoise-Gmax	0.369	Water
+0009	Blastoise-Mega	0.564	Water
+0009	Blastoise	0.545	Water
+0010	Caterpie	0.592	Bug
+0011	Metapod	0.592	Bug
+0012	Butterfree-Gmax	0.769	Bug	Flying
+0012	Butterfree	0.679	Bug	Flying
+0013	Weedle	0.575	Bug	Poison
+0014	Kakuna	0.649	Bug	Poison
+0015	Beedrill-Mega	0.618	Bug	Poison
+0015	Beedrill	0.654	Bug	Poison
+0016	Pidgey	0.579	Normal	Flying
+0017	Pidgeotto	0.639	Normal	Flying
+0018	Pidgeot-Mega	0.55	Normal	Flying
+0018	Pidgeot	0.655	Normal	Flying
+0019	Rattata-Alola	0.366	Normal
+0019	Rattata	0.563	Normal
+0020	Raticate-Alola	0.45	Normal
+0020	Raticate	0.576	Normal
+0021	Spearow	0.564	Normal	Flying
+0022	Fearow	0.56	Normal	Flying
+0023	Ekans	0.523	Poison
+0024	Arbok	0.499	Poison
+0025	Pikachu-Belle	0.651	Electric
+0025	Pikachu-Gmax	0.674	Electric
+0025	Pikachu-Libre	0.584	Electric
+0025	Pikachu-Peakychu	0.893	Electric
+0025	Pikachu-Phd	0.586	Electric
+0025	Pikachu-Pop-Star	0.602	Electric
+0025	Pikachu-Rock-Star	0.5	Electric
+0025	Pikachu	0.693	Electric
+0026	Raichu-Alola	0.671	Electric
+0026	Raichu-Mega-X	0.61	Electric
+0026	Raichu-Mega-Y	0.64	Electric
+0026	Raichu	0.661	Electric
+0027	Sandshrew-Alola	0.743	Ground
+0027	Sandshrew	0.658	Ground
+0028	Sandslash-Alola	0.688	Ground
+0028	Sandslash	0.545	Ground
+0029	Nidoran-F	0.701	Poison
+0030	Nidorina	0.654	Poison
+0031	Nidoqueen	0.556	Poison	Ground
+0032	Nidoran-M	0.475	Poison
+0033	Nidorino	0.541	Poison
+0034	Nidoking	0.547	Poison	Ground
+0035	Clefairy	0.756	Fairy
+0036	Clefable-Mega	0.731	Fairy
+0036	Clefable	0.771	Fairy
+0037	Vulpix-Alola	0.899	Fire
+0037	Vulpix	0.537	Fire
+0038	Ninetales-Alola	0.869	Fire
+0038	Ninetales	0.794	Fire
+0039	Jigglypuff	0.716	Normal	Fairy
+0040	Wigglytuff	0.79	Normal	Fairy
+0041	Zubat	0.423	Poison	Flying
+0042	Golbat	0.424	Poison	Flying
+0043	Oddish	0.472	Grass	Poison
+0044	Gloom	0.447	Grass	Poison
+0045	Vileplume	0.534	Grass	Poison
+0046	Paras	0.588	Bug	Grass
+0047	Parasect	0.576	Bug	Grass
+0048	Venonat	0.471	Bug	Poison
+0049	Venomoth	0.759	Bug	Poison
+0050	Diglett-Alola	0.392	Ground
+0050	Diglett	0.547	Ground
+0051	Dugtrio-Alola	0.497	Ground
+0051	Dugtrio	0.515	Ground
+0052	Meowth-Alola	0.639	Normal
+0052	Meowth-Galar	0.472	Normal
+0052	Meowth-Gmax	0.635	Normal
+0052	Meowth	0.671	Normal
+0053	Persian-Alola	0.647	Normal
+0053	Persian	0.725	Normal
+0054	Psyduck	0.751	Water
+0055	Golduck	0.553	Water
+0056	Mankey	0.728	Fighting
+0057	Primeape	0.614	Fighting
+0058	Growlithe-Hisui	0.565	Fire
+0058	Growlithe	0.647	Fire
+0059	Arcanine-Hisui	0.352	Fire
+0059	Arcanine	0.62	Fire
+0060	Poliwag	0.584	Water
+0061	Poliwhirl	0.582	Water
+0062	Poliwrath	0.579	Water	Fighting
+0063	Abra	0.663	Psychic
+0064	Kadabra	0.621	Psychic
+0065	Alakazam-Mega	0.644	Psychic
+0065	Alakazam	0.637	Psychic
+0066	Machop	0.63	Fighting
+0067	Machoke	0.574	Fighting
+0068	Machamp-Gmax	0.344	Fighting
+0068	Machamp	0.55	Fighting
+0069	Bellsprout	0.651	Grass	Poison
+0070	Weepinbell	0.672	Grass	Poison
+0071	Victreebel-Mega	0.704	Grass	Poison
+0071	Victreebel	0.641	Grass	Poison
+0072	Tentacool	0.493	Water	Poison
+0073	Tentacruel	0.513	Water	Poison
+0074	Geodude-Alola	0.555	Rock	Ground
+0074	Geodude	0.606	Rock	Ground
+0075	Graveler-Alola	0.512	Rock	Ground
+0075	Graveler	0.609	Rock	Ground
+0076	Golem-Alola	0.391	Rock	Ground
+0076	Golem	0.478	Rock	Ground
+0077	Ponyta-Galar	0.754	Fire
+0077	Ponyta	0.736	Fire
+0078	Rapidash-Galar	0.76	Fire
+0078	Rapidash	0.709	Fire
+0079	Slowpoke-Galar	0.731	Water	Psychic
+0079	Slowpoke	0.711	Water	Psychic
+0080	Slowbro-Galar	0.648	Water	Psychic
+0080	Slowbro-Mega	0.642	Water	Psychic
+0080	Slowbro	0.687	Water	Psychic
+0081	Magnemite	0.637	Electric	Steel
+0082	Magneton	0.606	Electric	Steel
+0083	Farfetch'D-Galar	0.424	Normal	Flying
+0083	Farfetch'D	0.576	Normal	Flying
+0084	Doduo	0.574	Normal	Flying
+0085	Dodrio	0.535	Normal	Flying
+0086	Seel	0.833	Water
+0087	Dewgong	0.871	Water	Ice
+0088	Grimer-Alola	0.513	Poison
+0088	Grimer	0.531	Poison
+0089	Muk-Alola	0.55	Poison
+0089	Muk	0.509	Poison
+0090	Shellder	0.479	Water
+0091	Cloyster	0.449	Water	Ice
+0092	Gastly	0.455	Ghost	Poison
+0093	Haunter	0.4	Ghost	Poison
+0094	Gengar-Gmax	0.319	Ghost	Poison
+0094	Gengar-Mega	0.355	Ghost	Poison
+0094	Gengar	0.48	Ghost	Poison
+0095	Onix	0.472	Rock	Ground
+0096	Drowzee	0.595	Psychic
+0097	Hypno	0.725	Psychic
+0098	Krabby	0.594	Water
+0099	Kingler-Gmax	0.597	Water
+0099	Kingler	0.571	Water
+0100	Voltorb-Hisui	0.501	Electric
+0100	Voltorb	0.689	Electric
+0101	Electrode-Hisui	0.627	Electric
+0101	Electrode	0.755	Electric
+0102	Exeggcute	0.791	Grass	Psychic
+0103	Exeggutor-Alola	0.379	Grass	Psychic
+0103	Exeggutor	0.563	Grass	Psychic
+0104	Cubone	0.713	Ground
+0105	Marowak-Alola	0.442	Ground
+0105	Marowak	0.65	Ground
+0106	Hitmonlee	0.598	Fighting
+0107	Hitmonchan	0.565	Fighting
+0108	Lickitung	0.708	Normal
+0109	Koffing	0.606	Poison
+0110	Weezing-Galar	0.579	Poison
+0110	Weezing	0.553	Poison
+0111	Rhyhorn	0.49	Ground	Rock
+0112	Rhydon	0.555	Ground	Rock
+0113	Chansey	0.778	Normal
+0114	Tangela	0.455	Grass
+0115	Kangaskhan-Mega	0.616	Normal
+0115	Kangaskhan	0.626	Normal
+0116	Horsea	0.694	Water
+0117	Seadra	0.649	Water
+0118	Goldeen	0.752	Water
+0119	Seaking	0.676	Water
+0120	Staryu	0.54	Water
+0121	Starmie-Mega	0.513	Water	Psychic
+0121	Starmie	0.553	Water	Psychic
+0122	Mr.Mime-Galar	0.546	Psychic	Fairy
+0122	Mr.Mime	0.59	Psychic	Fairy
+0123	Scyther	0.675	Bug	Flying
+0124	Jynx	0.597	Ice	Psychic
+0125	Electabuzz	0.524	Electric
+0126	Magmar	0.548	Fire
+0127	Pinsir-Mega	0.636	Bug
+0127	Pinsir	0.527	Bug
+0128	Tauros-Paldea-Aqua-Breed	0.265	Normal
+0128	Tauros-Paldea-Blaze-Breed	0.252	Normal
+0128	Tauros-Paldea-Combat-Breed	0.254	Normal
+0128	Tauros	0.504	Normal
+0129	Magikarp	0.604	Water
+0130	Gyarados-Mega	0.485	Water	Flying
+0130	Gyarados	0.505	Water	Flying
+0131	Lapras-Gmax	0.622	Water	Ice
+0131	Lapras	0.582	Water	Ice
+0132	Ditto	0.666	Normal
+0133	Eevee-Gmax	0.565	Normal
+0133	Eevee	0.514	Normal
+0134	Vaporeon	0.596	Water
+0135	Jolteon	0.678	Electric
+0136	Flareon	0.589	Fire
+0137	Porygon	0.567	Normal
+0138	Omanyte	0.691	Rock	Water
+0139	Omastar	0.614	Rock	Water
+0140	Kabuto	0.41	Rock	Water
+0141	Kabutops	0.509	Rock	Water
+0142	Aerodactyl-Mega	0.401	Rock	Flying
+0142	Aerodactyl	0.583	Rock	Flying
+0143	Snorlax-Gmax	0.487	Normal
+0143	Snorlax-Mosslax	0.56	Normal
+0143	Snorlax	0.654	Normal
+0144	Articuno-Galar	0.515	Ice	Flying
+0144	Articuno	0.542	Ice	Flying
+0145	Zapdos-Galar	0.363	Electric	Flying
+0145	Zapdos	0.626	Electric	Flying
+0146	Moltres-Galar	0.349	Fire	Flying
+0146	Moltres	0.679	Fire	Flying
+0147	Dratini	0.725	Dragon
+0148	Dragonair	0.701	Dragon
+0149	Dragonite-Mega	0.71	Dragon	Flying
+0149	Dragonite	0.662	Dragon	Flying
+0150	Mewtwo-Mega-X	0.696	Psychic
+0150	Mewtwo-Mega-Y	0.65	Psychic
+0150	Mewtwo	0.654	Psychic
+0151	Mew	0.7	Psychic
+0152	Chikorita	0.679	Grass
+0153	Bayleef	0.672	Grass
+0154	Meganium-Mega	0.694	Grass
+0154	Meganium	0.662	Grass
+0155	Cyndaquil	0.634	Fire
+0156	Quilava	0.65	Fire
+0157	Typhlosion-Hisui	0.63	Fire
+0157	Typhlosion	0.691	Fire
+0158	Totodile	0.491	Water
+0159	Croconaw	0.576	Water
+0160	Feraligatr-Mega	0.449	Water
+0160	Feraligatr	0.583	Water
+0161	Sentret	0.513	Normal
+0162	Furret	0.607	Normal
+0163	Hoothoot	0.534	Normal	Flying
+0164	Noctowl	0.459	Normal	Flying
+0165	Ledyba	0.642	Bug	Flying
+0166	Ledian	0.534	Bug	Flying
+0167	Spinarak	0.567	Bug	Poison
+0168	Ariados	0.463	Bug	Poison
+0169	Crobat	0.441	Poison	Flying
+0170	Chinchou	0.567	Water	Electric
+0171	Lanturn	0.557	Water	Electric
+0172	Pichu	0.587	Electric
+0173	Cleffa	0.689	Fairy
+0174	Igglybuff	0.792	Normal	Fairy
+0175	Togepi	0.778	Fairy
+0176	Togetic	0.782	Fairy	Flying
+0177	Natu	0.515	Psychic	Flying
+0178	Xatu	0.575	Psychic	Flying
+0179	Mareep	0.652	Electric
+0180	Flaaffy	0.643	Electric
+0181	Ampharos-Mega	0.774	Electric
+0181	Ampharos	0.712	Electric
+0182	Bellossom	0.582	Grass
+0183	Marill	0.547	Water	Fairy
+0184	Azumarill	0.547	Water	Fairy
+0185	Sudowoodo	0.473	Rock
+0186	Politoed	0.64	Water
+0187	Hoppip	0.574	Grass	Flying
+0188	Skiploom	0.619	Grass	Flying
+0189	Jumpluff	0.688	Grass	Flying
+0190	Aipom	0.598	Normal
+0191	Sunkern	0.531	Grass
+0192	Sunflora	0.681	Grass
+0193	Yanma	0.524	Bug	Flying
+0194	Wooper-Paldea	0.435	Water	Ground
+0194	Wooper	0.617	Water	Ground
+0195	Quagsire	0.621	Water	Ground
+0196	Espeon	0.643	Psychic
+0197	Umbreon	0.326	Dark
+0198	Murkrow	0.301	Dark	Flying
+0199	Slowking-Galar	0.47	Water	Psychic
+0199	Slowking	0.697	Water	Psychic
+0200	Misdreavus	0.4	Ghost
+0201	Unown	0.456	Psychic
+0202	Wobbuffet	0.524	Psychic
+0203	Girafarig	0.452	Normal	Psychic
+0204	Pineco	0.331	Bug
+0205	Forretress	0.523	Bug	Steel
+0206	Dunsparce	0.724	Normal
+0207	Gligar	0.56	Ground	Flying
+0208	Steelix-Mega	0.608	Steel	Ground
+0208	Steelix	0.473	Steel	Ground
+0209	Snubbull	0.551	Fairy
+0210	Granbull	0.638	Fairy
+0211	Qwilfish-Hisui	0.451	Water	Poison
+0211	Qwilfish	0.574	Water	Poison
+0212	Scizor-Mega	0.442	Bug	Steel
+0212	Scizor	0.388	Bug	Steel
+0213	Shuckle	0.622	Bug	Rock
+0214	Heracross-Mega	0.367	Bug	Fighting
+0214	Heracross	0.425	Bug	Fighting
+0215	Sneasel-Hisui	0.562	Dark	Ice
+0215	Sneasel	0.453	Dark	Ice
+0216	Teddiursa	0.583	Normal
+0217	Ursaring	0.479	Normal
+0218	Slugma	0.557	Fire
+0219	Magcargo	0.499	Fire	Rock
+0220	Swinub	0.483	Ice	Ground
+0221	Piloswine	0.514	Ice	Ground
+0222	Corsola-Galar	0.868	Water	Rock
+0222	Corsola	0.642	Water	Rock
+0223	Remoraid	0.688	Water
+0224	Octillery	0.487	Water
+0225	Delibird	0.613	Ice	Flying
+0226	Mantine	0.6	Water	Flying
+0227	Skarmory-Mega	0.369	Steel	Flying
+0227	Skarmory	0.546	Steel	Flying
+0228	Houndour	0.4	Dark	Fire
+0229	Houndoom-Mega	0.499	Dark	Fire
+0229	Houndoom	0.397	Dark	Fire
+0230	Kingdra	0.55	Water	Dragon
+0231	Phanpy	0.636	Ground
+0232	Donphan	0.535	Ground
+0233	Porygon2	0.535	Normal
+0234	Stantler	0.556	Normal
+0235	Smeargle-Smearguru	0.707	Normal
+0235	Smeargle	0.67	Normal
+0236	Tyrogue	0.579	Fighting
+0237	Hitmontop	0.506	Fighting
+0238	Smoochum	0.676	Ice	Psychic
+0239	Elekid	0.689	Electric
+0240	Magby	0.56	Fire
+0241	Miltank	0.631	Normal
+0242	Blissey	0.713	Normal
+0243	Raikou	0.603	Electric
+0244	Entei	0.438	Fire
+0245	Suicune	0.573	Water
+0246	Larvitar	0.532	Rock	Ground
+0247	Pupitar	0.574	Rock	Ground
+0248	Tyranitar-Mega	0.517	Rock	Dark
+0248	Tyranitar	0.539	Rock	Dark
+0249	Lugia	0.753	Psychic	Flying
+0250	Ho-Oh	0.545	Fire	Flying
+0251	Celebi	0.724	Psychic	Grass
+0252	Treecko	0.65	Grass
+0253	Grovyle	0.537	Grass
+0254	Sceptile-Mega	0.438	Grass
+0254	Sceptile	0.564	Grass
+0255	Torchic	0.683	Fire
+0256	Combusken	0.679	Fire	Fighting
+0257	Blaziken-Mega	0.568	Fire	Fighting
+0257	Blaziken	0.637	Fire	Fighting
+0258	Mudkip	0.632	Water
+0259	Marshtomp	0.599	Water	Ground
+0260	Swampert-Mega	0.391	Water	Ground
+0260	Swampert	0.524	Water	Ground
+0261	Poochyena	0.57	Dark
+0262	Mightyena	0.373	Dark
+0263	Zigzagoon-Galar	0.485	Normal
+0263	Zigzagoon	0.562	Normal
+0264	Linoone-Galar	0.475	Normal
+0264	Linoone	0.643	Normal
+0265	Wurmple	0.643	Bug
+0266	Silcoon	0.819	Bug
+0267	Beautifly	0.496	Bug	Flying
+0268	Cascoon	0.737	Bug
+0269	Dustox	0.577	Bug	Poison
+0270	Lotad	0.53	Water	Grass
+0271	Lombre	0.577	Water	Grass
+0272	Ludicolo	0.674	Water	Grass
+0273	Seedot	0.589	Grass
+0274	Nuzleaf	0.582	Grass	Dark
+0275	Shiftry	0.608	Grass	Dark
+0276	Taillow	0.446	Normal	Flying
+0277	Swellow	0.387	Normal	Flying
+0278	Wingull	0.787	Water	Flying
+0279	Pelipper	0.754	Water	Flying
+0280	Ralts	0.685	Psychic	Fairy
+0281	Kirlia	0.668	Psychic	Fairy
+0282	Gardevoir-Mega	0.833	Psychic	Fairy
+0282	Gardevoir	0.78	Psychic	Fairy
+0283	Surskit	0.623	Bug	Water
+0284	Masquerain	0.745	Bug	Flying
+0285	Shroomish	0.734	Grass
+0286	Breloom	0.628	Grass	Fighting
+0287	Slakoth	0.715	Normal
+0288	Vigoroth	0.788	Normal
+0289	Slaking	0.646	Normal
+0290	Nincada	0.712	Bug	Ground
+0291	Ninjask	0.642	Bug	Flying
+0292	Shedinja	0.573	Bug	Ghost
+0293	Whismur	0.737	Normal
+0294	Loudred	0.544	Normal
+0295	Exploud	0.614	Normal
+0296	Makuhita	0.724	Fighting
+0297	Hariyama	0.663	Fighting
+0298	Azurill	0.499	Normal	Fairy
+0299	Nosepass	0.411	Rock
+0300	Skitty	0.741	Normal
+0301	Delcatty	0.624	Normal
+0302	Sableye-Mega	0.47	Dark	Ghost
+0302	Sableye	0.429	Dark	Ghost
+0303	Mawile-Mega	0.418	Steel	Fairy
+0303	Mawile	0.511	Steel	Fairy
+0304	Aron	0.635	Steel	Rock
+0305	Lairon	0.647	Steel	Rock
+0306	Aggron-Mega	0.627	Steel	Rock
+0306	Aggron	0.486	Steel	Rock
+0307	Meditite	0.714	Fighting	Psychic
+0308	Medicham-Mega	0.714	Fighting	Psychic
+0308	Medicham	0.602	Fighting	Psychic
+0309	Electrike	0.653	Electric
+0310	Manectric-Mega	0.704	Electric
+0310	Manectric	0.634	Electric
+0311	Plusle	0.645	Electric
+0312	Minun	0.706	Electric
+0313	Volbeat	0.534	Bug
+0314	Illumise	0.584	Bug
+0315	Roselia	0.559	Grass	Poison
+0316	Gulpin	0.67	Poison
+0317	Swalot	0.524	Poison
+0318	Carvanha	0.534	Water	Dark
+0319	Sharpedo-Mega	0.527	Water	Dark
+0319	Sharpedo	0.433	Water	Dark
+0320	Wailmer	0.601	Water
+0321	Wailord	0.54	Water
+0322	Numel	0.802	Fire	Ground
+0323	Camerupt-Mega	0.506	Fire	Ground
+0323	Camerupt	0.579	Fire	Ground
+0324	Torkoal	0.645	Fire
+0325	Spoink	0.601	Psychic
+0326	Grumpig	0.518	Psychic
+0327	Spinda	0.621	Normal
+0328	Trapinch	0.615	Ground
+0329	Vibrava	0.453	Ground	Dragon
+0330	Flygon	0.605	Ground	Dragon
+0331	Cacnea	0.585	Grass
+0332	Cacturne	0.65	Grass	Dark
+0333	Swablu	0.855	Normal	Flying
+0334	Altaria-Mega	0.855	Dragon	Flying
+0334	Altaria	0.805	Dragon	Flying
+0335	Zangoose	0.771	Normal
+0336	Seviper	0.466	Poison
+0337	Lunatone	0.63	Rock	Psychic
+0338	Solrock	0.617	Rock	Psychic
+0339	Barboach	0.532	Water	Ground
+0340	Whiscash	0.404	Water	Ground
+0341	Corphish	0.633	Water
+0342	Crawdaunt	0.447	Water	Dark
+0343	Baltoy	0.573	Ground	Psychic
+0344	Claydol	0.413	Ground	Psychic
+0345	Lileep	0.603	Rock	Grass
+0346	Cradily	0.652	Rock	Grass
+0347	Anorith	0.562	Rock	Bug
+0348	Armaldo	0.548	Rock	Bug
+0349	Feebas	0.583	Water
+0350	Milotic	0.657	Water
+0351	Castform	0.778	Normal
+0352	Kecleon	0.697	Normal
+0353	Shuppet	0.452	Ghost
+0354	Banette-Mega	0.381	Ghost
+0354	Banette	0.493	Ghost
+0355	Duskull	0.603	Ghost
+0356	Dusclops	0.635	Ghost
+0357	Tropius	0.545	Grass	Flying
+0358	Chimecho-Mega	0.594	Psychic
+0358	Chimecho	0.752	Psychic
+0359	Absol-Mega-Z	0.18	Dark
+0359	Absol-Mega	0.748	Dark
+0359	Absol	0.735	Dark
+0360	Wynaut	0.629	Psychic
+0361	Snorunt	0.568	Ice
+0362	Glalie-Mega	0.436	Ice
+0362	Glalie	0.519	Ice
+0363	Spheal	0.735	Ice	Water
+0364	Sealeo	0.7	Ice	Water
+0365	Walrein	0.568	Ice	Water
+0366	Clamperl	0.401	Water
+0367	Huntail	0.657	Water
+0368	Gorebyss	0.709	Water
+0369	Relicanth	0.483	Water	Rock
+0370	Luvdisc	0.656	Water
+0371	Bagon	0.663	Dragon
+0372	Shelgon	0.742	Dragon
+0373	Salamence-Mega	0.384	Dragon	Flying
+0373	Salamence	0.481	Dragon	Flying
+0374	Beldum	0.55	Steel	Psychic
+0375	Metang	0.443	Steel	Psychic
+0376	Metagross-Mega	0.44	Steel	Psychic
+0376	Metagross	0.483	Steel	Psychic
+0377	Regirock	0.594	Rock
+0378	Regice	0.68	Ice
+0379	Registeel	0.51	Steel
+0380	Latias-Mega	0.52	Dragon	Psychic
+0380	Latias	0.617	Dragon	Psychic
+0381	Latios-Mega	0.523	Dragon	Psychic
+0381	Latios	0.523	Dragon	Psychic
+0382	Kyogre-Primal	0.496	Water
+0382	Kyogre	0.402	Water
+0383	Groudon-Primal	0.475	Ground
+0383	Groudon	0.404	Ground
+0384	Rayquaza-Mega	0.484	Dragon	Flying
+0384	Rayquaza	0.428	Dragon	Flying
+0385	Jirachi	0.773	Steel	Psychic
+0386	Deoxys-Attack	0.488	Psychic
+0386	Deoxys-Defense	0.534	Psychic
+0386	Deoxys-Speed	0.477	Psychic
+0386	Deoxys	0.506	Psychic
+0387	Turtwig	0.605	Grass
+0388	Grotle	0.499	Grass
+0389	Torterra	0.452	Grass	Ground
+0390	Chimchar	0.623	Fire
+0391	Monferno	0.551	Fire	Fighting
+0392	Infernape	0.561	Fire	Fighting
+0393	Piplup	0.587	Water
+0394	Prinplup	0.483	Water
+0395	Empoleon	0.349	Water	Steel
+0396	Starly	0.426	Normal	Flying
+0397	Staravia	0.413	Normal	Flying
+0398	Staraptor-Mega	0.466	Normal	Flying
+0398	Staraptor	0.44	Normal	Flying
+0399	Bidoof	0.485	Normal
+0400	Bibarel	0.494	Normal	Water
+0401	Kricketot	0.51	Bug
+0402	Kricketune	0.41	Bug
+0403	Shinx	0.507	Electric
+0404	Luxio	0.407	Electric
+0405	Luxray	0.32	Electric
+0406	Budew	0.623	Grass	Poison
+0407	Roserade	0.616	Grass	Poison
+0408	Cranidos	0.499	Rock
+0409	Rampardos	0.412	Rock
+0410	Shieldon	0.53	Rock	Steel
+0411	Bastiodon	0.505	Rock	Steel
+0412	Burmy-Plant-Cloak	0.421	Bug
+0412	Burmy-Sandy-Cloak	0.624	Bug
+0412	Burmy-Trash-Cloak	0.537	Bug
+0413	Wormadam-Plant-Cloak	0.472	Bug	Grass
+0413	Wormadam-Sandy-Cloak	0.575	Bug	Grass
+0413	Wormadam-Trash-C	0.526	Bug	Grass
+0414	Mothim	0.609	Bug	Flying
+0415	Combee	0.633	Bug	Flying
+0416	Vespiquen	0.468	Bug	Flying
+0417	Pachirisu	0.778	Electric
+0418	Buizel	0.569	Water
+0419	Floatzel	0.641	Water
+0420	Cherubi	0.492	Grass
+0421	Cherrim-Sunshine	0.658	Grass
+0421	Cherrim_Overcast	0.391	Grass
+0422	Shellos-East	0.561	Water
+0422	Shellos-West	0.641	Water
+0423	Gastrodon-East	0.498	Water	Ground
+0423	Gastrodon-West	0.553	Water	Ground
+0424	Ambipom	0.585	Normal
+0425	Drifloon	0.597	Ghost	Flying
+0426	Drifblim	0.586	Ghost	Flying
+0427	Buneary	0.608	Normal
+0428	Lopunny-Mega	0.536	Normal
+0428	Lopunny	0.66	Normal
+0429	Mismagius	0.415	Ghost
+0430	Honchkrow	0.316	Dark	Flying
+0431	Glameow	0.536	Normal
+0432	Purugly	0.618	Normal
+0433	Chingling	0.629	Psychic
+0434	Stunky	0.443	Poison	Dark
+0435	Skuntank	0.476	Poison	Dark
+0436	Bronzor	0.425	Steel	Psychic
+0437	Bronzong	0.481	Steel	Psychic
+0438	Bonsly	0.534	Rock
+0439	Mime_Jr	0.6	Psychic	Fairy
+0440	Happiny	0.753	Normal
+0441	Chatot	0.448	Normal	Flying
+0442	Spiritomb	0.642	Ghost	Dark
+0443	Gible	0.464	Dragon	Ground
+0444	Gabite	0.439	Dragon	Ground
+0445	Garchomp-Mega-Z	0.337	Dragon	Ground
+0445	Garchomp-Mega	0.417	Dragon	Ground
+0445	Garchomp	0.406	Dragon	Ground
+0446	Munchlax	0.503	Normal
+0447	Riolu	0.405	Fighting
+0448	Lucario-Mega-Z	0.438	Fighting	Steel
+0448	Lucario-Mega	0.453	Fighting	Steel
+0448	Lucario	0.434	Fighting	Steel
+0449	Hippopotas	0.556	Ground
+0450	Hippowdon	0.544	Ground
+0451	Skorupi	0.5	Poison	Bug
+0452	Drapion	0.446	Poison	Dark
+0453	Croagunk	0.44	Poison	Fighting
+0454	Toxicroak	0.439	Poison	Fighting
+0455	Carnivine	0.572	Grass
+0456	Finneon	0.527	Water
+0457	Lumineon	0.463	Water
+0458	Mantyke	0.527	Water	Flying
+0459	Snover	0.637	Grass	Ice
+0460	Abomasnow-Mega	0.736	Grass	Ice
+0460	Abomasnow	0.705	Grass	Ice
+0461	Weavile	0.451	Dark	Ice
+0462	Magnezone	0.471	Electric	Steel
+0463	Lickilicky	0.596	Normal
+0464	Rhyperior	0.429	Ground	Rock
+0465	Tangrowth	0.466	Grass
+0466	Electivire	0.49	Electric
+0467	Magmortar	0.482	Fire
+0468	Togekiss	0.734	Fairy	Flying
+0469	Yanmega	0.504	Bug	Flying
+0470	Leafeon	0.66	Grass
+0471	Glaceon	0.603	Ice
+0472	Gliscor	0.451	Ground	Flying
+0473	Mamoswine	0.573	Ice	Ground
+0474	Porygon-Z	0.504	Normal
+0475	Gallade-Mega	0.641	Psychic	Fighting
+0475	Gallade	0.578	Psychic	Fighting
+0476	Probopass	0.391	Rock	Steel
+0477	Dusknoir	0.455	Ghost
+0478	Froslass-Mega	0.753	Ice	Ghost
+0478	Froslass	0.709	Ice	Ghost
+0479	Rotom-Fan	0.686	Electric	Ghost
+0479	Rotom-Frost	0.563	Electric	Ghost
+0479	Rotom-Heat	0.529	Electric	Ghost
+0479	Rotom-Mow	0.527	Electric	Ghost
+0479	Rotom-Stereo	0.577	Electric	Ghost
+0479	Rotom-Wash	0.511	Electric	Ghost
+0479	Rotom	0.742	Electric	Ghost
+0480	Uxie	0.629	Psychic
+0481	Mesprit	0.628	Psychic
+0482	Azelf	0.58	Psychic
+0483	Dialga-Origin	0.317	Steel	Dragon
+0483	Dialga	0.461	Steel	Dragon
+0484	Palkia-Origin	0.613	Water	Dragon
+0484	Palkia	0.64	Water	Dragon
+0485	Heatran-Mega	0.498	Fire	Steel
+0485	Heatran	0.45	Fire	Steel
+0486	Regigigas	0.582	Normal
+0487	Giratina-Origin	0.362	Ghost	Dragon
+0487	Giratina	0.44	Ghost	Dragon
+0488	Cresselia	0.681	Psychic
+0489	Phione	0.562	Water
+0490	Manaphy	0.583	Water
+0491	Darkrai-Mega	0.274	Dark
+0491	Darkrai	0.349	Dark
+0492	Shaymin-Sky	0.71	Grass
+0492	Shaymin	0.626	Grass
+0493	Arceus	0.593	Normal
+0494	Victini	0.646	Psychic	Fire
+0495	Snivy	0.584	Grass
+0496	Servine	0.624	Grass
+0497	Serperior	0.511	Grass
+0498	Tepig	0.452	Fire
+0499	Pignite	0.462	Fire	Fighting
+0500	Emboar-Mega	0.476	Fire	Fighting
+0500	Emboar	0.441	Fire	Fighting
+0501	Oshawott	0.69	Water
+0502	Dewott	0.526	Water
+0503	Samurott-Hisui	0.358	Water
+0503	Samurott	0.534	Water
+0504	Patrat	0.586	Normal
+0505	Watchog	0.508	Normal
+0506	Lillipup	0.645	Normal
+0507	Herdier	0.501	Normal
+0508	Stoutland	0.589	Normal
+0509	Purrloin	0.474	Dark
+0510	Liepard	0.45	Dark
+0511	Pansage	0.593	Grass
+0512	Simisage	0.571	Grass
+0513	Pansear	0.597	Fire
+0514	Simisear	0.579	Fire
+0515	Panpour	0.663	Water
+0516	Simipour	0.626	Water
+0517	Munna	0.764	Psychic
+0518	Musharna	0.678	Psychic
+0519	Pidove	0.595	Normal	Flying
+0520	Tranquill	0.538	Normal	Flying
+0521	Unfezant	0.358	Normal	Flying
+0522	Blitzle	0.47	Electric
+0523	Zebstrika	0.47	Electric
+0524	Roggenrola	0.319	Rock
+0525	Boldore	0.288	Rock
+0526	Gigalith	0.326	Rock
+0527	Woobat	0.529	Psychic	Flying
+0528	Swoobat	0.389	Psychic	Flying
+0529	Drilbur	0.519	Ground
+0530	Excadrill-Mega	0.413	Ground	Steel
+0530	Excadrill	0.435	Ground	Steel
+0531	Audino-Mega	0.828	Normal
+0531	Audino	0.736	Normal
+0532	Timburr	0.53	Fighting
+0533	Gurdurr	0.494	Fighting
+0534	Conkeldurr	0.528	Fighting
+0535	Tympole	0.554	Water
+0536	Palpitoad	0.522	Water	Ground
+0537	Seismitoad	0.432	Water	Ground
+0538	Throh	0.538	Fighting
+0539	Sawk	0.458	Fighting
+0540	Sewaddle	0.594	Bug	Grass
+0541	Swadloon	0.578	Bug	Grass
+0542	Leavanny	0.553	Bug	Grass
+0543	Venipede	0.372	Bug	Poison
+0544	Whirlipede	0.447	Bug	Poison
+0545	Scolipede-Mega	0.403	Bug	Poison
+0545	Scolipede	0.331	Bug	Poison
+0546	Cottonee	0.716	Grass	Fairy
+0547	Whimsicott	0.749	Grass	Fairy
+0548	Petilil	0.685	Grass
+0549	Lilligant-Hisui	0.574	Grass
+0549	Lilligant	0.593	Grass
+0550	Basculin-Blue-Striped	0.547	Water
+0550	Basculin-Red-Striped	0.531	Water
+0550	Basculin-White-Striped	0.564	Water
+0551	Sandile	0.472	Ground	Dark
+0552	Krokorok	0.475	Ground	Dark
+0553	Krookodile	0.446	Ground	Dark
+0554	Darumaka-Galar	0.804	Fire
+0554	Darumaka	0.537	Fire
+0555	Darmanitan-Galar-Standard	0.846	Fire
+0555	Darmanitan	0.479	Fire
+0556	Maractus	0.51	Grass
+0557	Dwebble	0.463	Bug	Rock
+0558	Crustle	0.382	Bug	Rock
+0559	Scraggy	0.718	Dark	Fighting
+0560	Scrafty-Mega	0.694	Dark	Fighting
+0560	Scrafty	0.599	Dark	Fighting
+0561	Sigilyph	0.464	Psychic	Flying
+0562	Yamask-Galar	0.349	Ghost
+0562	Yamask	0.371	Ghost
+0563	Cofagrigus	0.439	Ghost
+0564	Tirtouga	0.448	Water	Rock
+0565	Carracosta	0.469	Water	Rock
+0566	Archen	0.59	Rock	Flying
+0567	Archeops	0.513	Rock	Flying
+0568	Trubbish	0.47	Poison
+0569	Garbodor-Gmax	0.456	Poison
+0569	Garbodor	0.49	Poison
+0570	Zorua-Hisui	0.727	Dark
+0570	Zorua	0.309	Dark
+0571	Zoroark-Hisui	0.655	Dark
+0571	Zoroark	0.269	Dark
+0572	Minccino	0.754	Normal
+0573	Cinccino	0.796	Normal
+0574	Gothita	0.625	Psychic
+0575	Gothorita	0.4	Psychic
+0576	Gothitelle	0.333	Psychic
+0577	Solosis	0.753	Psychic
+0578	Duosion	0.723	Psychic
+0579	Reuniclus	0.712	Psychic
+0580	Ducklett	0.683	Water	Flying
+0581	Swanna	0.814	Water	Flying
+0582	Vanillite	0.801	Ice
+0583	Vanillish	0.766	Ice
+0584	Vanilluxe	0.782	Ice
+0585	Deerling-Autumn	0.658	Normal	Grass
+0585	Deerling-Spring	0.674	Normal	Grass
+0585	Deerling-Summer	0.618	Normal	Grass
+0585	Deerling-Winter	0.641	Normal	Grass
+0586	Sawsbuck-Autumn	0.411	Normal	Grass
+0586	Sawsbuck-Spring	0.404	Normal	Grass
+0586	Sawsbuck-Summer	0.324	Normal	Grass
+0586	Sawsbuck-Winter	0.561	Normal	Grass
+0587	Emolga	0.623	Electric	Flying
+0588	Karrablast	0.51	Bug
+0589	Escavalier	0.509	Bug	Steel
+0590	Foongus	0.762	Grass	Poison
+0591	Amoonguss	0.501	Grass	Poison
+0592	Frillish-Female	0.812	Water	Ghost
+0592	Frillish-Male	0.751	Water	Ghost
+0593	Jellicent-Female	0.805	Water	Ghost
+0593	Jellicent-Male	0.786	Water	Ghost
+0594	Alomomola	0.603	Water
+0595	Joltik	0.671	Bug	Electric
+0596	Galvantula	0.63	Bug	Electric
+0597	Ferroseed	0.54	Grass	Steel
+0598	Ferrothorn	0.519	Grass	Steel
+0599	Klink	0.551	Steel
+0600	Klang	0.581	Steel
+0601	Klinklang	0.54	Steel
+0602	Tynamo	0.816	Electric
+0603	Eelektrik	0.496	Electric
+0604	Eelektross-Mega	0.763	Electric
+0604	Eelektross	0.485	Electric
+0605	Elgyem	0.632	Psychic
+0606	Beheeyem	0.535	Psychic
+0607	Litwick	0.724	Ghost	Fire
+0608	Lampent	0.367	Ghost	Fire
+0609	Chandelure-Mega	0.35	Ghost	Fire
+0609	Chandelure	0.361	Ghost	Fire
+0610	Axew	0.426	Dragon
+0611	Fraxure	0.415	Dragon
+0612	Haxorus	0.398	Dragon
+0613	Cubchoo	0.778	Ice
+0614	Beartic	0.824	Ice
+0615	Cryogonal	0.551	Ice
+0616	Shelmet	0.632	Bug
+0617	Accelgor	0.468	Bug
+0618	Stunfisk-Galar	0.462	Ground	Electric
+0618	Stunfisk	0.579	Ground	Electric
+0619	Mienfoo	0.658	Fighting
+0620	Mienshao	0.714	Fighting
+0621	Druddigon	0.337	Dragon
+0622	Golett	0.486	Ground	Ghost
+0623	Golurk-Mega	0.553	Ground	Ghost
+0623	Golurk	0.484	Ground	Ghost
+0624	Pawniard	0.489	Dark	Steel
+0625	Bisharp	0.481	Dark	Steel
+0626	Bouffalant	0.443	Normal
+0627	Rufflet	0.68	Normal	Flying
+0628	Braviary-Hisui	0.573	Normal	Flying
+0628	Braviary	0.382	Normal	Flying
+0629	Vullaby	0.449	Dark	Flying
+0630	Mandibuzz	0.432	Dark	Flying
+0631	Heatmor	0.461	Fire
+0632	Durant	0.456	Bug	Steel
+0633	Deino	0.372	Dark	Dragon
+0634	Zweilous	0.34	Dark	Dragon
+0635	Hydreigon	0.346	Dark	Dragon
+0636	Larvesta	0.634	Bug	Fire
+0637	Volcarona	0.571	Bug	Fire
+0638	Cobalion	0.501	Steel	Fighting
+0639	Terrakion	0.461	Rock	Fighting
+0640	Virizion	0.629	Grass	Fighting
+0641	Tornadus-Therian	0.498	Flying
+0641	Tornadus	0.547	Flying
+0642	Thundurus-Therian	0.551	Electric	Flying
+0642	Thundurus	0.546	Electric	Flying
+0643	Reshiram	0.778	Dragon	Fire
+0644	Zekrom	0.218	Dragon	Electric
+0645	Landorus-Therian	0.562	Ground	Flying
+0645	Landorus	0.56	Ground	Flying
+0646	Kyurem-Black	0.418	Dragon	Ice
+0646	Kyurem-White	0.704	Dragon	Ice
+0646	Kyurem	0.557	Dragon	Ice
+0647	Keldeo-Resolute	0.591	Water	Fighting
+0647	Keldeo	0.613	Water	Fighting
+0648	Meloetta-Pirouette	0.561	Normal	Psychic
+0648	Meloetta	0.704	Normal	Psychic
+0649	Genesect	0.423	Bug	Steel
+0650	Chespin	0.573	Grass
+0651	Quilladin	0.459	Grass
+0652	Chesnaught-Mega	0.543	Grass	Fighting
+0652	Chesnaught	0.679	Grass	Fighting
+0653	Fennekin	0.694	Fire
+0654	Braixen	0.618	Fire
+0655	Delphox-Mega	0.359	Fire	Psychic
+0655	Delphox	0.482	Fire	Psychic
+0656	Froakie	0.648	Water
+0657	Frogadier	0.516	Water
+0658	Greninja-Mega	0.534	Water	Dark
+0658	Greninja	0.452	Water	Dark
+0659	Bunnelby	0.51	Normal
+0660	Diggersby	0.525	Normal	Ground
+0661	Fletchling	0.535	Normal	Flying
+0662	Fletchinder	0.447	Fire	Flying
+0663	Talonflame	0.443	Fire	Flying
+0664	Scatterbug	0.448	Bug
+0665	Spewpa	0.686	Bug
+0666	Vivillon	0.525	Bug	Flying
+0667	Litleo	0.45	Fire	Normal
+0668	Pyroar-Female	0.439	Fire	Normal
+0668	Pyroar-Male	0.487	Fire	Normal
+0668	Pyroar-Mega	0.487	Fire	Normal
+0669	Flabebe	0.645	Fairy
+0670	Floette-Eternal	0.363	Fairy
+0670	Floette-Mega	0.238	Fairy
+0670	Floette	0.544	Fairy
+0671	Florges	0.521	Fairy
+0672	Skiddo	0.432	Grass
+0673	Gogoat	0.444	Grass
+0674	Pancham	0.592	Fighting
+0675	Pangoro	0.446	Fighting	Dark
+0676	Furfrou-Diamond	0.621	Normal
+0676	Furfrou-Heart	0.624	Normal
+0676	Furfrou-Star	0.629	Normal
+0676	Furfrou	0.776	Normal
+0677	Espurr	0.55	Psychic
+0678	Meowstic-Female	0.707	Psychic
+0678	Meowstic-Male	0.489	Psychic
+0678	Meowstic-Mega	0.601	Psychic
+0679	Honedge	0.485	Steel	Ghost
+0680	Doublade	0.506	Steel	Ghost
+0681	Aegislash-Blade	0.613	Steel	Ghost
+0681	Aegislash	0.564	Steel	Ghost
+0682	Spritzee	0.615	Fairy
+0683	Aromatisse	0.546	Fairy
+0684	Swirlix	0.888	Fairy
+0685	Slurpuff	0.703	Fairy
+0686	Inkay	0.724	Dark	Psychic
+0687	Malamar-Mega	0.526	Dark	Psychic
+0687	Malamar	0.577	Dark	Psychic
+0688	Binacle	0.578	Rock	Water
+0689	Barbaracle-Mega	0.288	Rock	Water
+0689	Barbaracle	0.478	Rock	Water
+0690	Skrelp	0.44	Poison	Water
+0691	Dragalge-Mega	0.335	Poison	Dragon
+0691	Dragalge	0.376	Poison	Dragon
+0692	Clauncher	0.632	Water
+0693	Clawitzer	0.415	Water
+0694	Helioptile	0.64	Electric	Normal
+0695	Heliolisk	0.56	Electric	Normal
+0696	Tyrunt	0.494	Rock	Dragon
+0697	Tyrantrum	0.518	Rock	Dragon
+0698	Amaura	0.726	Rock	Ice
+0699	Aurorus	0.714	Rock	Ice
+0700	Sylveon	0.777	Fairy
+0701	Hawlucha-Mega	0.506	Fighting	Flying
+0701	Hawlucha	0.564	Fighting	Flying
+0702	Dedenne	0.562	Electric	Fairy
+0703	Carbink	0.677	Rock	Fairy
+0704	Goomy	0.674	Dragon
+0705	Sliggoo-Hisui	0.722	Dragon
+0705	Sliggoo	0.652	Dragon
+0706	Goodra-Hisui	0.748	Dragon
+0706	Goodra	0.7	Dragon
+0707	Klefki	0.558	Steel	Fairy
+0708	Phantump	0.356	Ghost	Grass
+0709	Trevenant	0.418	Ghost	Grass
+0710	Pumpkaboo	0.413	Ghost	Grass
+0711	Gourgeist	0.49	Ghost	Grass
+0712	Bergmite	0.814	Ice
+0713	Avalugg-Hisui	0.729	Ice
+0713	Avalugg	0.803	Ice
+0714	Noibat	0.48	Flying	Dragon
+0715	Noivern	0.372	Flying	Dragon
+0716	Xerneas	0.458	Fairy
+0717	Yveltal	0.318	Dark	Flying
+0718	Zygarde-10	0.4	Dragon	Ground
+0718	Zygarde-50	0.403	Dragon	Ground
+0718	Zygarde-Cell	0.613	Dragon	Ground
+0718	Zygarde-Complete	0.347	Dragon	Ground
+0718	Zygarde-Core	0.678	Dragon	Ground
+0718	Zygarde-Mega	0.313	Dragon	Ground
+0719	Diancie-Mega	0.864	Rock	Fairy
+0719	Diancie	0.75	Rock	Fairy
+0720	Hoopa-Unbound	0.469	Psychic	Ghost
+0720	Hoopa	0.541	Psychic	Ghost
+0721	Volcanion	0.309	Fire	Water
+0722	Rowlet	0.705	Grass	Flying
+0723	Dartrix	0.681	Grass	Flying
+0724	Decidueye-Hisui	0.466	Grass	Ghost
+0724	Decidueye	0.512	Grass	Ghost
+0725	Litten	0.36	Fire
+0726	Torracat	0.405	Fire
+0727	Incineroar	0.388	Fire	Dark
+0728	Popplio	0.429	Water
+0729	Brionne	0.723	Water
+0730	Primarina	0.665	Water	Fairy
+0731	Pikipek	0.505	Normal	Flying
+0732	Trumbeak	0.479	Normal	Flying
+0733	Toucannon	0.443	Normal	Flying
+0734	Yungoos	0.566	Normal
+0735	Gumshoos	0.527	Normal
+0736	Grubbin	0.632	Bug
+0737	Charjabug	0.521	Bug	Electric
+0738	Vikavolt	0.513	Bug	Electric
+0739	Crabrawler	0.437	Fighting
+0740	Crabominable-Mega	0.551	Fighting	Ice
+0740	Crabominable	0.663	Fighting	Ice
+0741	Oricorio-Baile	0.358	Fire	Flying
+0741	Oricorio-Pa'U	0.716	Fire	Flying
+0741	Oricorio-Pom-Pom	0.745	Fire	Flying
+0741	Oricorio-Sensu	0.607	Fire	Flying
+0742	Cutiefly	0.817	Bug	Fairy
+0743	Ribombee	0.735	Bug	Fairy
+0744	Rockruff	0.57	Rock
+0745	Lycanroc-Dusk	0.648	Rock
+0745	Lycanroc-Midnight	0.401	Rock
+0745	Lycanroc	0.668	Rock
+0746	Wishiwashi-School	0.274	Water
+0746	Wishiwashi	0.704	Water
+0747	Mareanie	0.636	Poison	Water
+0748	Toxapex	0.499	Poison	Water
+0749	Mudbray	0.492	Ground
+0750	Mudsdale	0.349	Ground
+0751	Dewpider	0.549	Water	Bug
+0752	Araquanid	0.671	Water	Bug
+0753	Fomantis	0.603	Grass
+0754	Lurantis	0.632	Grass
+0755	Morelull	0.749	Grass	Fairy
+0756	Shiinotic	0.724	Grass	Fairy
+0757	Salandit	0.279	Poison	Fire
+0758	Salazzle	0.344	Poison	Fire
+0759	Stufful	0.558	Normal	Fighting
+0760	Bewear	0.394	Normal	Fighting
+0761	Bounsweet	0.604	Grass
+0762	Steenee	0.653	Grass
+0763	Tsareena	0.594	Grass
+0764	Comfey	0.682	Fairy
+0765	Oranguru	0.578	Normal	Psychic
+0766	Passimian	0.564	Fighting
+0767	Wimpod	0.58	Bug	Water
+0768	Golisopod-Mega	0.321	Bug	Water
+0768	Golisopod	0.622	Bug	Water
+0769	Sandygast	0.659	Ghost	Ground
+0770	Palossand	0.648	Ghost	Ground
+0771	Pyukumuku	0.344	Water
+0773	Silvally	0.595	Normal
+0774	Minior-Red	0.701	Rock	Flying
+0774	Minior	0.419	Rock	Flying
+0775	Komala	0.616	Normal
+0776	Turtonator	0.453	Fire	Dragon
+0777	Togedemaru	0.815	Electric	Steel
+0778	Mimikyu	0.531	Ghost	Fairy
+0779	Bruxish	0.585	Water	Psychic
+0780	Drampa-Mega	0.356	Normal	Dragon
+0780	Drampa	0.738	Normal	Dragon
+0781	Dhelmise	0.355	Ghost	Grass
+0782	Jangmo-O	0.674	Dragon
+0783	Hakamo-O	0.556	Dragon	Fighting
+0784	Kommo-O	0.547	Dragon	Fighting
+0785	Tapu_Koko	0.437	Electric	Fairy
+0786	Tapu_Lele	0.493	Psychic	Fairy
+0787	Tapu_Bulu	0.375	Grass	Fairy
+0788	Tapu_Fini	0.401	Water	Fairy
+0789	Cosmog	0.382	Psychic
+0790	Cosmoem	0.52	Psychic
+0791	Solgaleo	0.656	Psychic	Steel
+0792	Lunala	0.431	Psychic	Ghost
+0793	Nihilego	0.784	Rock	Poison
+0794	Buzzwole	0.313	Bug	Fighting
+0795	Pheromosa	0.929	Bug	Fighting
+0796	Xurkitree	0.449	Electric
+0797	Celesteela	0.503	Steel	Flying
+0798	Kartana	0.736	Grass	Steel
+0799	Guzzlord	0.335	Dark	Dragon
+0800	Necrozma-Dawn	0.589	Psychic
+0800	Necrozma-Dusk	0.519	Psychic
+0800	Necrozma-Ultra	0.925	Psychic
+0800	Necrozma	0.269	Psychic
+0801	Magearna-Mega	0.337	Steel	Fairy
+0801	Magearna-Original-Mega	0.569	Steel	Fairy
+0801	Magearna-Original	0.496	Steel	Fairy
+0801	Magearna	0.655	Steel	Fairy
+0802	Marshadow	0.359	Fighting	Ghost
+0803	Poipole	0.338	Poison
+0804	Naganadel	0.353	Poison	Dragon
+0805	Stakataka	0.347	Rock	Steel
+0806	Blacephalon	0.75	Fire	Ghost
+0807	Zeraora-Mega	0.411	Electric
+0807	Zeraora	0.541	Electric
+0808	Meltan	0.654	Steel
+0809	Melmetal-Gmax	0.484	Steel
+0809	Melmetal	0.545	Steel
+0810	Grookey	0.544	Grass
+0811	Thwackey	0.554	Grass
+0812	Rillaboom-Gmax	0.443	Grass
+0812	Rillaboom	0.33	Grass
+0813	Scorbunny	0.731	Fire
+0814	Raboot	0.568	Fire
+0815	Cinderace-Gmax	0.713	Fire
+0815	Cinderace	0.561	Fire
+0816	Sobble	0.611	Water
+0817	Drizzile	0.536	Water
+0818	Inteleon-Gmax	0.424	Water
+0818	Inteleon	0.452	Water
+0819	Skwovet	0.446	Normal
+0820	Greedent	0.425	Normal
+0821	Rookidee	0.362	Flying
+0822	Corvisquire	0.27	Flying
+0823	Corviknight-Gmax	0.243	Flying	Steel
+0823	Corviknight	0.242	Flying	Steel
+0824	Blipbug	0.502	Bug
+0825	Dottler	0.529	Bug	Psychic
+0826	Orbeetle-Gmax	0.401	Bug	Psychic
+0826	Orbeetle	0.342	Bug	Psychic
+0827	Nickit	0.34	Dark
+0828	Thievul	0.335	Dark
+0829	Gossifleur	0.618	Grass
+0830	Eldegoss	0.829	Grass
+0831	Wooloo	0.803	Normal
+0832	Dubwool	0.52	Normal
+0833	Chewtle	0.545	Water
+0834	Drednaw-Gmax	0.476	Water	Rock
+0834	Drednaw	0.476	Water	Rock
+0835	Yamper	0.721	Electric
+0836	Boltund	0.56	Electric
+0837	Rolycoly	0.276	Rock
+0838	Carkol	0.208	Rock	Fire
+0839	Coalossal-Gmax	0.225	Rock	Fire
+0839	Coalossal	0.254	Rock	Fire
+0840	Applin	0.496	Grass	Dragon
+0841	Flapple-Gmax	0.534	Grass	Dragon
+0841	Flapple	0.484	Grass	Dragon
+0842	Appletun-Gmax	0.534	Grass	Dragon
+0842	Appletun	0.555	Grass	Dragon
+0843	Silicobra	0.572	Ground
+0844	Sandaconda-Gmax	0.425	Ground
+0844	Sandaconda	0.367	Ground
+0845	Cramorant	0.38	Flying	Water
+0846	Arrokuda	0.551	Water
+0847	Barraskewda	0.478	Water
+0848	Toxel	0.517	Electric	Poison
+0849	Toxtricity-Amped-Gmax	0.493	Electric	Poison
+0849	Toxtricity-Low-Key-Gmax	0.493	Electric	Poison
+0849	Toxtricity-Low-Key	0.49	Electric	Poison
+0849	Toxtricity	0.508	Electric	Poison
+0850	Sizzlipede	0.339	Fire	Bug
+0851	Centiskorch-Gmax	0.508	Fire	Bug
+0851	Centiskorch	0.419	Fire	Bug
+0852	Clobbopus	0.6	Fighting
+0853	Grapploct	0.28	Fighting
+0854	Sinistea	0.638	Ghost
+0855	Polteageist	0.672	Ghost
+0856	Hatenna	0.696	Psychic
+0857	Hattrem	0.73	Psychic
+0858	Hatterene-Gmax	0.604	Psychic	Fairy
+0858	Hatterene	0.701	Psychic	Fairy
+0859	Impidimp	0.493	Dark	Fairy
+0860	Morgrem	0.342	Dark	Fairy
+0861	Grimmsnarl-Gmax	0.283	Dark	Fairy
+0861	Grimmsnarl	0.307	Dark	Fairy
+0862	Obstagoon	0.419	Dark	Normal
+0863	Perrserker	0.46	Steel
+0864	Cursola	0.888	Ghost
+0865	Sirfetch'D	0.593	Fighting
+0866	Mr.Rime	0.451	Ice	Psychic
+0867	Runerigus	0.438	Ground	Ghost
+0868	Milcery	0.875	Fairy
+0869	Alcremie-Gmax	0.756	Fairy
+0869	Alcremie	0.888	Fairy
+0870	Falinks-Mega	0.442	Fighting
+0870	Falinks	0.428	Fighting
+0871	Pincurchin	0.328	Electric
+0872	Snom	0.877	Ice	Bug
+0873	Frosmoth	0.834	Ice	Bug
+0874	Stonjourner	0.524	Rock
+0875	Eiscue	0.741	Ice
+0876	Indeedee-Female	0.544	Psychic	Normal
+0876	Indeedee-Male	0.471	Psychic	Normal
+0877	Morpeko-Hangry	0.417	Electric	Dark
+0877	Morpeko	0.623	Electric	Dark
+0878	Cufant	0.553	Steel
+0879	Copperajah-Gmax	0.379	Steel
+0879	Copperajah	0.367	Steel
+0880	Dracozolt	0.443	Electric	Dragon
+0881	Arctozolt	0.689	Electric	Ice
+0882	Dracovish	0.439	Water	Dragon
+0883	Arctovish	0.633	Water	Ice
+0884	Duraludon-Gmax	0.591	Steel	Dragon
+0884	Duraludon	0.695	Steel	Dragon
+0885	Dreepy	0.521	Dragon	Ghost
+0886	Drakloak	0.462	Dragon	Ghost
+0887	Dragapult	0.555	Dragon	Ghost
+0888	Zacian-Crowned	0.541	Fairy
+0888	Zacian	0.456	Fairy
+0889	Zamazenta-Crowned	0.434	Fighting
+0889	Zamazenta	0.303	Fighting
+0890	Eternatus	0.278	Poison	Dragon
+0891	Kubfu	0.633	Fighting
+0892	Urshifu-Rapid-Strike-Gmax	0.458	Fighting	Dark
+0892	Urshifu-Rapid-Strike	0.341	Fighting	Dark
+0892	Urshifu-Single-Strike-Gmax	0.464	Fighting	Dark
+0892	Urshifu	0.351	Fighting	Dark
+0893	Zarude-Dada	0.24	Dark	Grass
+0893	Zarude	0.24	Dark	Grass
+0894	Regieleki	0.78	Electric
+0895	Regidrago	0.266	Dragon
+0896	Glastrier	0.772	Ice
+0897	Spectrier	0.315	Ghost
+0898	Calyrex-Ice	0.664	Psychic	Grass
+0898	Calyrex-Shadow	0.371	Psychic	Grass
+0898	Calyrex	0.369	Psychic	Grass
+0899	Wyrdeer	0.727	Normal	Psychic
+0900	Kleavor	0.308	Bug	Rock
+0901	Ursaluna-Bloodmoon	0.454	Ground	Normal
+0901	Ursaluna	0.419	Ground	Normal
+0902	Basculegion-Female	0.645	Water	Ghost
+0902	Basculegion-Male	0.473	Water	Ghost
+0903	Sneasler	0.474	Fighting	Poison
+0904	Overqwil	0.415	Dark	Poison
+0905	Enamorus-Therian	0.524	Fairy	Flying
+0905	Enamorus	0.571	Fairy	Flying
+0906	Sprigatito	0.647	Grass
+0907	Floragato	0.514	Grass
+0908	Meowscarada	0.458	Grass	Dark
+0909	Fuecoco	0.575	Fire
+0910	Crocalor	0.521	Fire
+0911	Skeledirge	0.536	Fire	Ghost
+0912	Quaxly	0.732	Water
+0913	Quaxwell	0.535	Water
+0914	Quaquaval	0.457	Water	Fighting
+0915	Lechonk	0.365	Normal
+0916	Oinkologne-Female	0.348	Normal
+0916	Oinkologne-Male	0.298	Normal
+0917	Tarountula	0.765	Bug
+0918	Spidops	0.438	Bug
+0919	Nymble	0.438	Bug
+0920	Lokix	0.315	Bug	Dark
+0921	Pawmi	0.591	Electric
+0922	Pawmo	0.698	Electric	Fighting
+0923	Pawmot	0.63	Electric	Fighting
+0924	Tandemaus	0.85	Normal
+0925	Maushold	0.858	Normal
+0926	Fidough	0.828	Fairy
+0927	Dachsbun	0.475	Fairy
+0928	Smoliv	0.653	Grass	Normal
+0929	Dolliv	0.614	Grass	Normal
+0930	Arboliva	0.409	Grass	Normal
+0931	Squawkabilly	0.606	Normal	Flying
+0932	Nacli	0.627	Rock
+0933	Naclstack	0.589	Rock
+0934	Garganacl	0.712	Rock
+0935	Charcadet	0.322	Fire
+0936	Armarouge	0.489	Fire	Psychic
+0937	Ceruledge	0.358	Fire	Ghost
+0938	Tadbulb	0.603	Electric
+0939	Bellibolt	0.473	Electric
+0940	Wattrel	0.438	Electric	Flying
+0941	Kilowattrel	0.373	Electric	Flying
+0942	Maschiff	0.445	Dark
+0943	Mabosstiff	0.39	Dark
+0944	Shroodle	0.384	Poison	Normal
+0945	Grafaiai	0.342	Poison	Normal
+0946	Bramblin	0.513	Grass	Ghost
+0947	Brambleghast	0.444	Grass	Ghost
+0948	Toedscool	0.72	Ground	Grass
+0949	Toedscruel	0.538	Ground	Grass
+0950	Klawf	0.481	Rock
+0951	Capsakid	0.528	Grass
+0952	Scovillain-Mega	0.389	Grass	Fire
+0952	Scovillain	0.381	Grass	Fire
+0953	Rellor	0.405	Bug
+0954	Rabsca	0.475	Bug	Psychic
+0955	Flittle	0.75	Psychic
+0956	Espathra	0.763	Psychic
+0957	Tinkatink	0.511	Fairy	Steel
+0958	Tinkatuff	0.554	Fairy	Steel
+0959	Tinkaton-Tinkmaster	0.594	Fairy	Steel
+0959	Tinkaton	0.514	Fairy	Steel
+0960	Wiglett	0.755	Water
+0961	Wugtrio	0.432	Water
+0962	Bombirdier	0.509	Flying	Dark
+0963	Finizen	0.615	Water
+0964	Palafin-Hero	0.524	Water
+0964	Palafin	0.614	Water
+0965	Varoom	0.397	Steel	Poison
+0966	Revavroom	0.388	Steel	Poison
+0967	Cyclizar	0.402	Dragon	Normal
+0968	Orthworm	0.562	Steel
+0969	Glimmet	0.508	Rock	Poison
+0970	Glimmora-Mega	0.293	Rock	Poison
+0970	Glimmora	0.336	Rock	Poison
+0971	Greavard	0.595	Ghost
+0972	Houndstone	0.634	Ghost
+0973	Flamigo	0.514	Flying	Fighting
+0974	Cetoddle	0.731	Ice
+0975	Cetitan	0.757	Ice
+0976	Veluza	0.504	Water	Psychic
+0977	Dondozo	0.522	Water
+0978	Tatsugiri-Droopy	0.583	Dragon	Water
+0978	Tatsugiri-Stretchy-Mega	0.57	Dragon	Water
+0978	Tatsugiri-Stretchy	0.717	Dragon	Water
+0978	Tatsugiri	0.598	Dragon	Water
+0979	Annihilape	0.556	Fighting	Ghost
+0980	Clodsire	0.37	Poison	Ground
+0981	Farigiraf	0.398	Normal	Psychic
+0982	Dudunsparce	0.653	Normal
+0983	Kingambit	0.372	Dark	Steel
+0984	Great_Tusk	0.478	Ground	Fighting
+0985	Scream_Tail	0.719	Fairy	Psychic
+0986	Brute_Bonnet	0.471	Grass	Dark
+0987	Flutter_Mane	0.395	Ghost	Fairy
+0988	Slither_Wing	0.604	Bug	Fighting
+0989	Sandy_Shocks	0.425	Electric	Ground
+0990	Iron_Treads	0.352	Ground	Steel
+0991	Iron_Bundle	0.573	Ice	Water
+0992	Iron_Hands	0.6	Fighting	Electric
+0993	Iron_Jugulis	0.309	Dark	Flying
+0994	Iron_Moth	0.564	Fire	Poison
+0995	Iron_Thorns	0.454	Rock	Electric
+0996	Frigibax	0.548	Dragon	Ice
+0997	Arctibax	0.496	Dragon	Ice
+0998	Baxcalibur-Mega	0.488	Dragon	Ice
+0998	Baxcalibur	0.443	Dragon	Ice
+0999	Gimmighoul-Roaming	0.481	Ghost
+0999	Gimmighoul	0.409	Ghost
+1000	Gholdengo	0.63	Steel	Ghost
+1001	Wo-Chien	0.398	Dark	Grass
+1002	Chien-Pao	0.779	Dark	Ice
+1003	Ting-Lu	0.315	Dark	Ground
+1004	Chi-Yu	0.464	Dark	Fire
+1005	Roaring_Moon	0.336	Dragon	Dark
+1006	Iron_Valiant	0.533	Fairy	Fighting
+1007	Koraidon	0.445	Fighting	Dragon
+1008	Miraidon	0.504	Electric	Dragon
+1009	Walking_Wake	0.512	Water	Dragon
+1010	Iron_Leaves	0.448	Grass	Psychic
+1011	Dipplin	0.433	Grass	Dragon
+1012	Poltchageist	0.548	Grass	Ghost
+1013	Sinistcha	0.487	Grass	Ghost
+1014	Okidogi	0.281	Poison	Fighting
+1015	Munkidori	0.293	Poison	Psychic
+1016	Fezandipiti	0.327	Poison	Fairy
+1017	Ogerpon-Cornerstone-Mask	0.334	Grass
+1017	Ogerpon-Hearthflame-Mask	0.368	Grass
+1017	Ogerpon-Teal-Mask	0.452	Grass
+1017	Ogerpon-Wellspring-Mask	0.413	Grass
+1018	Archaludon	0.47	Steel	Dragon
+1019	Hydrapple	0.406	Grass	Dragon
+1020	Gouging_Fire	0.49	Fire	Dragon
+1021	Raging_Bolt	0.557	Electric	Dragon
+1022	Iron_Boulder	0.481	Rock	Psychic
+1023	Iron_Crown	0.486	Steel	Psychic
+1024	Terapagos-Terastal	0.683	Normal
+1024	Terapagos	0.407	Normal
+1025	Pecharunt	0.438	Poison	Ghost
+1026  Browt       0.683   Grass
+1027  MissingNo.
+1028  MissingNo.
+1029  Pombon      0.646   Fire
+1030  MissingNo.
+1031  MissingNo.
+1032  Gecqua      0.451   Water
+1033  MissingNo.
+1034  MissingNo.
