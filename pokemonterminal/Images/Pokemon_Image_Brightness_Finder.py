@@ -1,13 +1,9 @@
 import os
-
 import numpy as np
 from PIL import Image
 
-
 # folderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images/'
-# grayFolderPath = '/home/mark/Adams_Dev_Test/Pokemon-Terminal/pokemonterminal/Images/HQ_Images_Gray/'
 folderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images/'
-# grayFolderPath = '/home/adam/Pokemon_Images/Pokemon/assets/HQ_Images_Gray/'
 
 def pokemonImageBrightnessFinder(imageInput, fileName):
     fileInput = (imageInput + fileName)
